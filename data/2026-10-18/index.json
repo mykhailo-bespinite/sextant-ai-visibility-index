@@ -1,1696 +1,1700 @@
 {
-    "runs": [
-        {
-            "status": "completed",
-            "goal_met": false,
-            "run_date": "2026-10-14",
-            "streak_days": 0,
-            "engines_answered": 6
-        },
-        {
-            "status": "completed",
-            "goal_met": false,
-            "run_date": "2026-10-15",
-            "streak_days": 0,
-            "engines_answered": 6
-        },
-        {
-            "status": "completed",
-            "goal_met": false,
-            "run_date": "2026-10-16",
-            "streak_days": 0,
-            "engines_answered": 6
-        },
-        {
-            "status": "completed",
-            "goal_met": false,
-            "run_date": "2026-10-17",
-            "streak_days": 0,
-            "engines_answered": 6
-        }
-    ],
-    "engines": [
-        {
-            "ok": 120,
-            "engine": "anthropic",
-            "answers": 120,
-            "sextant_first": 0,
-            "sextant_named": 0
-        },
-        {
-            "ok": 120,
-            "engine": "gemini",
-            "answers": 120,
-            "sextant_first": 0,
-            "sextant_named": 0
-        },
-        {
-            "ok": 116,
-            "engine": "google_aio",
-            "answers": 120,
-            "sextant_first": 0,
-            "sextant_named": 0
-        },
-        {
-            "ok": 120,
-            "engine": "grok",
-            "answers": 120,
-            "sextant_first": 0,
-            "sextant_named": 0
-        },
-        {
-            "ok": 120,
-            "engine": "openai",
-            "answers": 120,
-            "sextant_first": 0,
-            "sextant_named": 0
-        },
-        {
-            "ok": 120,
-            "engine": "perplexity",
-            "answers": 120,
-            "sextant_first": 0,
-            "sextant_named": 0
-        }
-    ],
-    "prompts": [
-        {
-            "key": "bhag_01",
-            "prompt_text": "What are the best AEO platforms for marketing agencies?",
-            "experimental": false
-        },
-        {
-            "key": "bhag_02",
-            "prompt_text": "Which tools measure how AI assistants describe a brand?",
-            "experimental": false
-        },
-        {
-            "key": "bhag_03",
-            "prompt_text": "What should I use to track my brand in ChatGPT, Perplexity and Gemini?",
-            "experimental": false
-        },
-        {
-            "key": "bhag_04",
-            "prompt_text": "Which Answer Engine Optimization tools can audit and fix AI visibility?",
-            "experimental": false
-        },
-        {
-            "key": "bhag_05",
-            "prompt_text": "What are the top AI visibility monitoring tools for agencies?",
-            "experimental": false
-        },
-        {
-            "key": "bhag_06",
-            "prompt_text": "Which platforms offer white-label AEO reporting for agencies?",
-            "experimental": false
-        },
-        {
-            "key": "bhag_07",
-            "prompt_text": "How can a brand find out which pages AI engines cite about it, and which tool does that?",
-            "experimental": false
-        },
-        {
-            "key": "bhag_08",
-            "prompt_text": "What tools generate schema and content fixes for AI search visibility?",
-            "experimental": false
-        },
-        {
-            "key": "bhag_09",
-            "prompt_text": "Which AEO tools certify a brand's AI visibility?",
-            "experimental": false
-        },
-        {
-            "key": "bhag_10",
-            "prompt_text": "What is the best alternative to traditional SEO tools for AI search?",
-            "experimental": false
-        }
-    ],
-    "top_urls": [
-        {
-            "n": 13,
-            "url": "https://zapier.com/blog/best-ai-visibility-tool/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 13,
-            "url": "https://yourcontentmart.co/best-answer-engine-optimization-agencies/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 13,
-            "url": "https://www.youtube.com/watch?v=DMPSZw75vko",
-            "engines": "google_aio"
-        },
-        {
-            "n": 11,
-            "url": "https://www.youtube.com/watch?v=6USHNsRNoFM",
-            "engines": "google_aio"
-        },
-        {
-            "n": 11,
-            "url": "https://www.tryanalyze.ai/blog/ai-visibility-tools-for-agencies",
-            "engines": "google_aio"
-        },
-        {
-            "n": 10,
-            "url": "https://verbatimdigital.com/articles/best-ai-visibility-tools",
-            "engines": "google_aio"
-        },
-        {
-            "n": 10,
-            "url": "https://www.stylefactoryproductions.com/blog/best-seo-ai-visibility-tools",
-            "engines": "google_aio"
-        },
-        {
-            "n": 10,
-            "url": "https://thatware.co/best-ai-visibility-tools-for-agencies/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 9,
-            "url": "https://scalevisible.com/marketing-tools/best-ai-visibility-tools/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 9,
-            "url": "https://blog.frizerly.com/22976/_best_aeo_software_tools_for_seo_agencies",
-            "engines": "google_aio"
-        },
-        {
-            "n": 8,
-            "url": "https://www.tryanalyze.ai/blog/leading-ai-visibility-optimization-tools",
-            "engines": "google_aio"
-        },
-        {
-            "n": 8,
-            "url": "https://www.citehawk.com/blog/brand-monitoring-tools",
-            "engines": "google_aio"
-        },
-        {
-            "n": 8,
-            "url": "https://geneo.app/blog/ai-monitoring-tools-white-label-reporting-agencies/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 7,
-            "url": "https://blog.frizerly.com/21271/_best_aipowered_seo_reporting_platforms_for_agencies_with_whitelabel_options",
-            "engines": "google_aio"
-        },
-        {
-            "n": 7,
-            "url": "https://webflow.com/blog/aeo-tools",
-            "engines": "google_aio"
-        },
-        {
-            "n": 7,
-            "url": "https://alhena.ai/blog/best-ai-visibility-tools-ecommerce/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 6,
-            "url": "https://www.dageno.ai/blog/ai-visibility-products-with-the-best-optimization",
-            "engines": "google_aio"
-        },
-        {
-            "n": 6,
-            "url": "https://mybrandi.ai/ai-visibility-platforms-for-generative-engine-optimization/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 6,
-            "url": "https://sedestral.com/en/blog/ai-search-visibility-tools",
-            "engines": "google_aio"
-        },
-        {
-            "n": 6,
-            "url": "https://www.besthunt.ai/ai-brand-tools",
-            "engines": "google_aio"
-        },
-        {
-            "n": 6,
-            "url": "https://getairefs.com/blog/best-white-label-seo-software/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 6,
-            "url": "https://www.allable.ai/blog/best-aeo-tools-for-marketing/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 6,
-            "url": "https://www.hubspot.com/products/aeo",
-            "engines": "google_aio"
-        },
-        {
-            "n": 6,
-            "url": "https://www.frizerly.com/best-white-label-seo-software-for-agencies.html",
-            "engines": "google_aio"
-        },
-        {
-            "n": 6,
-            "url": "https://maxaeo.ai/blog/best-ai-visibility-tools/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 6,
-            "url": "https://www.youtube.com/watch?v=IPjKv5wxxnw&t=65",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://www.brandlight.ai/blog/best-ai-visibility-tools-for-agencies",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://scopicstudios.com/blog/8-best-ai-brand-monitoring-tools-in-2026/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://roidigitally.com/blog/what-are-the-best-aeo-services/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://www.youtube.com/watch?v=qrLTK1EJGbM",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://maxaeo.ai/ai-tools/best-ai-seo-tools/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://optimizeyour.blog/learn/troubleshooting/how-to-check-if-ai-is-citing-your-content",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://www.thecssagency.com/blog/how-to-track-ai-citations",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://productionsoup.io/insights/best-ai-brand-visibility-monitoring-tools-for-enterprises-in/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://brainadz.marketing/blog/best-seo-aeo-tools",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://freddiechatt.com/ai-seo-tools/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://www.instagram.com/popular/what-are-the-best-ai-visibility-tools-for-aeo/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://www.hubspot.com/ai-search-grader",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://www.linkedin.com/posts/sushanthbalaravi_aeo-answerengineoptimization-seo-activity-7442330580857520129-FSce",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://trendopinion.com/ai-sentiment-analysis-tools-for-brand-monitoring-compared-ranked/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://www.averi.ai/learn/how-to-track-your-brand-s-visibility-in-chatgpt-other-top-llms",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://qoulomb.com/tools-to-track-brand-mentions-in-chatgpt-and-gemini/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://www.flint.com/articles/best-ai-visibility-tracking-tools",
-            "engines": "google_aio"
-        },
-        {
-            "n": 5,
-            "url": "https://www.linkedin.com/posts/willbagnall_track-ai-traffic-in-ga4-understand-your-activity-7321099341992009730-OIjM",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://aionx.co/ai-comparisons/best-seo-tools-ai-content-marketers/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://searchfit.ai/blog/how-to-track-your-brands-visibility-in-chatgpt",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://aimultiple.com/answer-engine-optimization-tools",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://semai.ai/ai-answer-engine-optimization-tool",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://www.dageno.ai/blog/best-tools-for-tracking-ai-citation-authority",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://leapshq.com/blog/ai-tools-for-seo-and-aeo",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://quantumagency.io/white-label-aeo-solutions/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://cogny.com/blog/ai-visibility-chatgpt-claude-gemini-perplexity",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://ranklytics.ai/features/ai-visibility-monitoring/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://rankllm.link/blog/best-aeo-tools/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://www.calendar.com/blog/top-answer-engine-optimization-tools-for-improving-ai-search-visibility/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ai-visibility-launches-free-tool-to-measure-whether-ai-assistants-recommend-your-brand/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://addlly.ai/blog/role-of-schema-markup-in-ai-search-visibility/",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://searchengineland.com/aeo-tools-476314",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://stellagent.ai/insights/ai-search-engines-comparison",
-            "engines": "google_aio"
-        },
-        {
-            "n": 4,
-            "url": "https://insites.com/blog/the-8-best-ai-visibility-and-geo-auditing-tools-for-digital-marketing-agencies/",
-            "engines": "google_aio"
-        }
-    ],
-    "leaderboard": [
-        {
-            "tool": "Profound",
-            "first_count": 233
-        },
-        {
-            "tool": "Otterly",
-            "first_count": 28
-        },
-        {
-            "tool": "Brandwatch",
-            "first_count": 25
-        },
-        {
-            "tool": "Semrush AI Toolkit",
-            "first_count": 22
-        },
-        {
-            "tool": "Schema App",
-            "first_count": 19
-        },
-        {
-            "tool": "Peec AI",
-            "first_count": 16
-        },
-        {
-            "tool": "WordLift",
-            "first_count": 16
-        },
-        {
-            "tool": "HubSpot AI Search Grader",
-            "first_count": 14
-        },
-        {
-            "tool": "Scrunch",
-            "first_count": 13
-        },
-        {
-            "tool": "Surfer SEO",
-            "first_count": 12
-        },
-        {
-            "tool": "Schema.org Markup Generator",
-            "first_count": 12
-        },
-        {
-            "tool": "Semrush AI Visibility Toolkit",
-            "first_count": 11
-        },
-        {
-            "tool": "Writesonic",
-            "first_count": 11
-        },
-        {
-            "tool": "Ahrefs Brand Radar",
-            "first_count": 9
-        },
-        {
-            "tool": "Semrush's AI Visibility Toolkit",
-            "first_count": 8
-        },
-        {
-            "tool": "Semrush One",
-            "first_count": 8
-        },
-        {
-            "tool": "Glimpse",
-            "first_count": 8
-        },
-        {
-            "tool": "Brandwatch AI",
-            "first_count": 6
-        },
-        {
-            "tool": "GeoVector",
-            "first_count": 6
-        },
-        {
-            "tool": "HubSpot AEO",
-            "first_count": 6
-        },
-        {
-            "tool": "Ayzeo",
-            "first_count": 6
-        },
-        {
-            "tool": "AgencyAnalytics",
-            "first_count": 6
-        },
-        {
-            "tool": "Frizerly",
-            "first_count": 5
-        },
-        {
-            "tool": "BrightEdge",
-            "first_count": 4
-        },
-        {
-            "tool": "Brand24",
-            "first_count": 4
-        },
-        {
-            "tool": "Semrush ONE",
-            "first_count": 4
-        },
-        {
-            "tool": "Hootsuite/Talkwalker LLM Insights",
-            "first_count": 4
-        },
-        {
-            "tool": "Asva AI",
-            "first_count": 3
-        },
-        {
-            "tool": "Radar Kit",
-            "first_count": 3
-        },
-        {
-            "tool": "Perception Check",
-            "first_count": 3
-        },
-        {
-            "tool": "Loudmink",
-            "first_count": 3
-        },
-        {
-            "tool": "Gauge",
-            "first_count": 3
-        },
-        {
-            "tool": "Bing Webmaster Tools",
-            "first_count": 3
-        },
-        {
-            "tool": "RadarKit",
-            "first_count": 3
-        },
-        {
-            "tool": "LLM Pulse",
-            "first_count": 3
-        },
-        {
-            "tool": "Goodie by NoGood",
-            "first_count": 3
-        },
-        {
-            "tool": "LovedByAI",
-            "first_count": 3
-        },
-        {
-            "tool": "WorkDuo",
-            "first_count": 2
-        },
-        {
-            "tool": "SurferSEO",
-            "first_count": 2
-        },
-        {
-            "tool": "SE Ranking",
-            "first_count": 2
-        },
-        {
-            "tool": "Cogny",
-            "first_count": 2
-        },
-        {
-            "tool": "VisibilityStack",
-            "first_count": 2
-        },
-        {
-            "tool": "OtterlyAI",
-            "first_count": 2
-        },
-        {
-            "tool": "Clearscope",
-            "first_count": 2
-        },
-        {
-            "tool": "Google AI Overviews",
-            "first_count": 2
-        },
-        {
-            "tool": "AthenaHQ",
-            "first_count": 2
-        },
-        {
-            "tool": "MarketMuse",
-            "first_count": 2
-        },
-        {
-            "tool": "AIclicks",
-            "first_count": 2
-        },
-        {
-            "tool": "Scrunch.ai",
-            "first_count": 2
-        },
-        {
-            "tool": "Frase",
-            "first_count": 2
-        },
-        {
-            "tool": "AlsoAsked",
-            "first_count": 2
-        },
-        {
-            "tool": "Authoritas",
-            "first_count": 2
-        },
-        {
-            "tool": "Ahrefs AI Visibility Checker",
-            "first_count": 1
-        },
-        {
-            "tool": "WordPress",
-            "first_count": 1
-        },
-        {
-            "tool": "Peec.ai",
-            "first_count": 1
-        },
-        {
-            "tool": "Evertune",
-            "first_count": 1
-        },
-        {
-            "tool": "Brandlight",
-            "first_count": 1
-        },
-        {
-            "tool": "SE Visible by SE Ranking",
-            "first_count": 1
-        },
-        {
-            "tool": "Brandi AI",
-            "first_count": 1
-        },
-        {
-            "tool": "SuperSchema",
-            "first_count": 1
-        },
-        {
-            "tool": "Perplexity",
-            "first_count": 1
-        },
-        {
-            "tool": "Python",
-            "first_count": 1
-        },
-        {
-            "tool": "CLEO by RegenAI",
-            "first_count": 1
-        },
-        {
-            "tool": ".ai",
-            "first_count": 1
-        },
-        {
-            "tool": "AEO.tools",
-            "first_count": 1
-        },
-        {
-            "tool": "BrandMentions",
-            "first_count": 1
-        },
-        {
-            "tool": "SE Visible",
-            "first_count": 1
-        },
-        {
-            "tool": "HubSpot AI",
-            "first_count": 1
-        },
-        {
-            "tool": "HubSpot AI Search Grader / AEO",
-            "first_count": 1
-        },
-        {
-            "tool": "Hootsuite LLM Insights",
-            "first_count": 1
-        },
-        {
-            "tool": "AI Visibility Pro",
-            "first_count": 1
-        },
-        {
-            "tool": "Goody AI",
-            "first_count": 1
-        },
-        {
-            "tool": "HubSpot AEO & AI Search Grader",
-            "first_count": 1
-        },
-        {
-            "tool": "Relixir",
-            "first_count": 1
-        },
-        {
-            "tool": "Yext",
-            "first_count": 1
-        },
-        {
-            "tool": "Goodie",
-            "first_count": 1
-        },
-        {
-            "tool": "Sight AI",
-            "first_count": 1
-        },
-        {
-            "tool": "Merkle Schema Markup Generator",
-            "first_count": 1
-        },
-        {
-            "tool": "Addlly AI",
-            "first_count": 1
-        },
-        {
-            "tool": "Operato AI",
-            "first_count": 1
-        },
-        {
-            "tool": "Dageno AI",
-            "first_count": 1
-        },
-        {
-            "tool": "Alli AI",
-            "first_count": 1
-        },
-        {
-            "tool": "AI Visibility",
-            "first_count": 1
-        },
-        {
-            "tool": "Google Search Console",
-            "first_count": 1
-        },
-        {
-            "tool": "Frase.io",
-            "first_count": 1
-        },
-        {
-            "tool": "JSON Schema App",
-            "first_count": 1
-        },
-        {
-            "tool": "Cognizo",
-            "first_count": 1
-        },
-        {
-            "tool": "Conductor",
-            "first_count": 1
-        },
-        {
-            "tool": "AEOVisor",
-            "first_count": 1
-        },
-        {
-            "tool": "Super Schema",
-            "first_count": 1
-        },
-        {
-            "tool": "Agency Platform",
-            "first_count": 1
-        },
-        {
-            "tool": "peec.ai",
-            "first_count": 1
-        },
-        {
-            "tool": "AccuRanker",
-            "first_count": 1
-        },
-        {
-            "tool": "Looker Studio",
-            "first_count": 1
-        },
-        {
-            "tool": "HubSpot AEO / AI Search Grader",
-            "first_count": 1
-        },
-        {
-            "tool": "Topify",
-            "first_count": 1
-        },
-        {
-            "tool": "Similarweb AI Search Intelligence",
-            "first_count": 1
-        },
-        {
-            "tool": "OnCited",
-            "first_count": 1
-        },
-        {
-            "tool": "Similarweb's AI Citation Analysis",
-            "first_count": 1
-        },
-        {
-            "tool": "MaxAEO",
-            "first_count": 1
-        },
-        {
-            "tool": "Arize AI",
-            "first_count": 1
-        }
-    ],
-    "top_domains": [
-        {
-            "n": 103,
-            "domain": "youtube.com",
-            "sextant": false
-        },
-        {
-            "n": 34,
-            "domain": "blog.frizerly.com",
-            "sextant": false
-        },
-        {
-            "n": 30,
-            "domain": "linkedin.com",
-            "sextant": false
-        },
-        {
-            "n": 24,
-            "domain": "maxaeo.ai",
-            "sextant": false
-        },
-        {
-            "n": 20,
-            "domain": "tryanalyze.ai",
-            "sextant": false
-        },
-        {
-            "n": 19,
-            "domain": "reddit.com",
-            "sextant": false
-        },
-        {
-            "n": 18,
-            "domain": "dageno.ai",
-            "sextant": false
-        },
-        {
-            "n": 16,
-            "domain": "zapier.com",
-            "sextant": false
-        },
-        {
-            "n": 15,
-            "domain": "hubspot.com",
-            "sextant": false
-        },
-        {
-            "n": 13,
-            "domain": "thatware.co",
-            "sextant": false
-        },
-        {
-            "n": 13,
-            "domain": "yourcontentmart.co",
-            "sextant": false
-        },
-        {
-            "n": 11,
-            "domain": "trysight.ai",
-            "sextant": false
-        },
-        {
-            "n": 11,
-            "domain": "alhena.ai",
-            "sextant": false
-        },
-        {
-            "n": 11,
-            "domain": "llmpulse.ai",
-            "sextant": false
-        },
-        {
-            "n": 10,
-            "domain": "stylefactoryproductions.com",
-            "sextant": false
-        },
-        {
-            "n": 10,
-            "domain": "verbatimdigital.com",
-            "sextant": false
-        },
-        {
-            "n": 9,
-            "domain": "therankmasters.com",
-            "sextant": false
-        },
-        {
-            "n": 9,
-            "domain": "scalevisible.com",
-            "sextant": false
-        },
-        {
-            "n": 9,
-            "domain": "semrush.com",
-            "sextant": false
-        },
-        {
-            "n": 8,
-            "domain": "facebook.com",
-            "sextant": false
-        },
-        {
-            "n": 8,
-            "domain": "geneo.app",
-            "sextant": false
-        },
-        {
-            "n": 8,
-            "domain": "citehawk.com",
-            "sextant": false
-        },
-        {
-            "n": 7,
-            "domain": "ayzeo.com",
-            "sextant": false
-        },
-        {
-            "n": 7,
-            "domain": "blogs.listablelabs.com",
-            "sextant": false
-        },
-        {
-            "n": 7,
-            "domain": "webflow.com",
-            "sextant": false
-        },
-        {
-            "n": 7,
-            "domain": "visibilitystack.ai",
-            "sextant": false
-        },
-        {
-            "n": 7,
-            "domain": "stackmatix.com",
-            "sextant": false
-        },
-        {
-            "n": 6,
-            "domain": "quora.com",
-            "sextant": false
-        },
-        {
-            "n": 6,
-            "domain": "besthunt.ai",
-            "sextant": false
-        },
-        {
-            "n": 6,
-            "domain": "instagram.com",
-            "sextant": false
-        },
-        {
-            "n": 6,
-            "domain": "frizerly.com",
-            "sextant": false
-        },
-        {
-            "n": 6,
-            "domain": "workduo.ai",
-            "sextant": false
-        },
-        {
-            "n": 6,
-            "domain": "topify.ai",
-            "sextant": false
-        },
-        {
-            "n": 6,
-            "domain": "getairefs.com",
-            "sextant": false
-        },
-        {
-            "n": 6,
-            "domain": "frase.io",
-            "sextant": false
-        },
-        {
-            "n": 6,
-            "domain": "mybrandi.ai",
-            "sextant": false
-        },
-        {
-            "n": 6,
-            "domain": "indexly.ai",
-            "sextant": false
-        },
-        {
-            "n": 6,
-            "domain": "allable.ai",
-            "sextant": false
-        },
-        {
-            "n": 6,
-            "domain": "sedestral.com",
-            "sextant": false
-        },
-        {
-            "n": 6,
-            "domain": "google.com",
-            "sextant": false
-        }
-    ],
-    "generated_at": "2026-10-18T11:39:08.338157+00:00",
-    "leaderboard_by_engine": [
-        {
-            "c": 49,
-            "tool": "Profound",
-            "engine": "anthropic"
-        },
-        {
-            "c": 25,
-            "tool": "Brandwatch",
-            "engine": "anthropic"
-        },
-        {
-            "c": 12,
-            "tool": "Schema.org Markup Generator",
-            "engine": "anthropic"
-        },
-        {
-            "c": 10,
-            "tool": "Semrush AI Toolkit",
-            "engine": "anthropic"
-        },
-        {
-            "c": 7,
-            "tool": "Surfer SEO",
-            "engine": "anthropic"
-        },
-        {
-            "c": 6,
-            "tool": "Otterly",
-            "engine": "anthropic"
-        },
-        {
-            "c": 6,
-            "tool": "Brandwatch AI",
-            "engine": "anthropic"
-        },
-        {
-            "c": 2,
-            "tool": "Authoritas",
-            "engine": "anthropic"
-        },
-        {
-            "c": 2,
-            "tool": "Clearscope",
-            "engine": "anthropic"
-        },
-        {
-            "c": 1,
-            "tool": "Brandlight",
-            "engine": "anthropic"
-        },
-        {
-            "c": 5,
-            "tool": "WordLift",
-            "engine": "gemini"
-        },
-        {
-            "c": 4,
-            "tool": "Brand24",
-            "engine": "gemini"
-        },
-        {
-            "c": 3,
-            "tool": "Peec AI",
-            "engine": "gemini"
-        },
-        {
-            "c": 3,
-            "tool": "Ahrefs Brand Radar",
-            "engine": "gemini"
-        },
-        {
-            "c": 2,
-            "tool": "Google AI Overviews",
-            "engine": "gemini"
-        },
-        {
-            "c": 2,
-            "tool": "BrightEdge",
-            "engine": "gemini"
-        },
-        {
-            "c": 1,
-            "tool": ".ai",
-            "engine": "gemini"
-        },
-        {
-            "c": 1,
-            "tool": "SE Ranking",
-            "engine": "gemini"
-        },
-        {
-            "c": 1,
-            "tool": "Looker Studio",
-            "engine": "gemini"
-        },
-        {
-            "c": 1,
-            "tool": "AccuRanker",
-            "engine": "gemini"
-        },
-        {
-            "c": 1,
-            "tool": "HubSpot AI",
-            "engine": "gemini"
-        },
-        {
-            "c": 1,
-            "tool": "Arize AI",
-            "engine": "gemini"
-        },
-        {
-            "c": 1,
-            "tool": "Frase",
-            "engine": "gemini"
-        },
-        {
-            "c": 1,
-            "tool": "Yext",
-            "engine": "gemini"
-        },
-        {
-            "c": 1,
-            "tool": "Python",
-            "engine": "gemini"
-        },
-        {
-            "c": 1,
-            "tool": "WordPress",
-            "engine": "gemini"
-        },
-        {
-            "c": 22,
-            "tool": "Profound",
-            "engine": "google_aio"
-        },
-        {
-            "c": 9,
-            "tool": "Otterly",
-            "engine": "google_aio"
-        },
-        {
-            "c": 6,
-            "tool": "Ayzeo",
-            "engine": "google_aio"
-        },
-        {
-            "c": 6,
-            "tool": "HubSpot AEO",
-            "engine": "google_aio"
-        },
-        {
-            "c": 5,
-            "tool": "Frizerly",
-            "engine": "google_aio"
-        },
-        {
-            "c": 4,
-            "tool": "Semrush AI Toolkit",
-            "engine": "google_aio"
-        },
-        {
-            "c": 3,
-            "tool": "Bing Webmaster Tools",
-            "engine": "google_aio"
-        },
-        {
-            "c": 3,
-            "tool": "Goodie by NoGood",
-            "engine": "google_aio"
-        },
-        {
-            "c": 3,
-            "tool": "Asva AI",
-            "engine": "google_aio"
-        },
-        {
-            "c": 3,
-            "tool": "RadarKit",
-            "engine": "google_aio"
-        },
-        {
-            "c": 3,
-            "tool": "Radar Kit",
-            "engine": "google_aio"
-        },
-        {
-            "c": 3,
-            "tool": "Gauge",
-            "engine": "google_aio"
-        },
-        {
-            "c": 3,
-            "tool": "Perception Check",
-            "engine": "google_aio"
-        },
-        {
-            "c": 2,
-            "tool": "AIclicks",
-            "engine": "google_aio"
-        },
-        {
-            "c": 2,
-            "tool": "WordLift",
-            "engine": "google_aio"
-        },
-        {
-            "c": 2,
-            "tool": "OtterlyAI",
-            "engine": "google_aio"
-        },
-        {
-            "c": 2,
-            "tool": "HubSpot AI Search Grader",
-            "engine": "google_aio"
-        },
-        {
-            "c": 2,
-            "tool": "Peec AI",
-            "engine": "google_aio"
-        },
-        {
-            "c": 2,
-            "tool": "VisibilityStack",
-            "engine": "google_aio"
-        },
-        {
-            "c": 2,
-            "tool": "Cogny",
-            "engine": "google_aio"
-        },
-        {
-            "c": 2,
-            "tool": "WorkDuo",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Similarweb AI Search Intelligence",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "HubSpot AEO & AI Search Grader",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "MaxAEO",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Semrush AI Visibility Toolkit",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "OnCited",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Goody AI",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "AI Visibility",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "SE Visible",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Agency Platform",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "SuperSchema",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Addlly AI",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Sight AI",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Schema App",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Topify",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Cognizo",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Evertune",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Scrunch",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "AEOVisor",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Brandi AI",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "SE Visible by SE Ranking",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Super Schema",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Dageno AI",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "SE Ranking",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "CLEO by RegenAI",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Google Search Console",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "AI Visibility Pro",
-            "engine": "google_aio"
-        },
-        {
-            "c": 1,
-            "tool": "Goodie",
-            "engine": "google_aio"
-        },
-        {
-            "c": 40,
-            "tool": "Profound",
-            "engine": "grok"
-        },
-        {
-            "c": 12,
-            "tool": "Scrunch",
-            "engine": "grok"
-        },
-        {
-            "c": 8,
-            "tool": "Glimpse",
-            "engine": "grok"
-        },
-        {
-            "c": 8,
-            "tool": "WordLift",
-            "engine": "grok"
-        },
-        {
-            "c": 6,
-            "tool": "Semrush AI Toolkit",
-            "engine": "grok"
-        },
-        {
-            "c": 6,
-            "tool": "AgencyAnalytics",
-            "engine": "grok"
-        },
-        {
-            "c": 6,
-            "tool": "Peec AI",
-            "engine": "grok"
-        },
-        {
-            "c": 5,
-            "tool": "Surfer SEO",
-            "engine": "grok"
-        },
-        {
-            "c": 3,
-            "tool": "Schema App",
-            "engine": "grok"
-        },
-        {
-            "c": 3,
-            "tool": "Ahrefs Brand Radar",
-            "engine": "grok"
-        },
-        {
-            "c": 2,
-            "tool": "MarketMuse",
-            "engine": "grok"
-        },
-        {
-            "c": 2,
-            "tool": "Scrunch.ai",
-            "engine": "grok"
-        },
-        {
-            "c": 2,
-            "tool": "SurferSEO",
-            "engine": "grok"
-        },
-        {
-            "c": 2,
-            "tool": "BrightEdge",
-            "engine": "grok"
-        },
-        {
-            "c": 2,
-            "tool": "AlsoAsked",
-            "engine": "grok"
-        },
-        {
-            "c": 1,
-            "tool": "Conductor",
-            "engine": "grok"
-        },
-        {
-            "c": 1,
-            "tool": "AEO.tools",
-            "engine": "grok"
-        },
-        {
-            "c": 1,
-            "tool": "Perplexity",
-            "engine": "grok"
-        },
-        {
-            "c": 1,
-            "tool": "peec.ai",
-            "engine": "grok"
-        },
-        {
-            "c": 1,
-            "tool": "Otterly",
-            "engine": "grok"
-        },
-        {
-            "c": 1,
-            "tool": "AthenaHQ",
-            "engine": "grok"
-        },
-        {
-            "c": 1,
-            "tool": "Merkle Schema Markup Generator",
-            "engine": "grok"
-        },
-        {
-            "c": 1,
-            "tool": "Peec.ai",
-            "engine": "grok"
-        },
-        {
-            "c": 1,
-            "tool": "Relixir",
-            "engine": "grok"
-        },
-        {
-            "c": 1,
-            "tool": "BrandMentions",
-            "engine": "grok"
-        },
-        {
-            "c": 1,
-            "tool": "Alli AI",
-            "engine": "grok"
-        },
-        {
-            "c": 1,
-            "tool": "Frase",
-            "engine": "grok"
-        },
-        {
-            "c": 1,
-            "tool": "Frase.io",
-            "engine": "grok"
-        },
-        {
-            "c": 96,
-            "tool": "Profound",
-            "engine": "openai"
-        },
-        {
-            "c": 12,
-            "tool": "Otterly",
-            "engine": "openai"
-        },
-        {
-            "c": 10,
-            "tool": "Schema App",
-            "engine": "openai"
-        },
-        {
-            "c": 1,
-            "tool": "Ahrefs Brand Radar",
-            "engine": "openai"
-        },
-        {
-            "c": 1,
-            "tool": "WordLift",
-            "engine": "openai"
-        },
-        {
-            "c": 26,
-            "tool": "Profound",
-            "engine": "perplexity"
-        },
-        {
-            "c": 12,
-            "tool": "HubSpot AI Search Grader",
-            "engine": "perplexity"
-        },
-        {
-            "c": 11,
-            "tool": "Writesonic",
-            "engine": "perplexity"
-        },
-        {
-            "c": 10,
-            "tool": "Semrush AI Visibility Toolkit",
-            "engine": "perplexity"
-        },
-        {
-            "c": 8,
-            "tool": "Semrush One",
-            "engine": "perplexity"
-        },
-        {
-            "c": 8,
-            "tool": "Semrush's AI Visibility Toolkit",
-            "engine": "perplexity"
-        },
-        {
-            "c": 6,
-            "tool": "GeoVector",
-            "engine": "perplexity"
-        },
-        {
-            "c": 5,
-            "tool": "Schema App",
-            "engine": "perplexity"
-        },
-        {
-            "c": 5,
-            "tool": "Peec AI",
-            "engine": "perplexity"
-        },
-        {
-            "c": 4,
-            "tool": "Semrush ONE",
-            "engine": "perplexity"
-        },
-        {
-            "c": 4,
-            "tool": "Hootsuite/Talkwalker LLM Insights",
-            "engine": "perplexity"
-        },
-        {
-            "c": 3,
-            "tool": "Loudmink",
-            "engine": "perplexity"
-        },
-        {
-            "c": 3,
-            "tool": "LovedByAI",
-            "engine": "perplexity"
-        },
-        {
-            "c": 3,
-            "tool": "LLM Pulse",
-            "engine": "perplexity"
-        },
-        {
-            "c": 2,
-            "tool": "Semrush AI Toolkit",
-            "engine": "perplexity"
-        },
-        {
-            "c": 2,
-            "tool": "Ahrefs Brand Radar",
-            "engine": "perplexity"
-        },
-        {
-            "c": 1,
-            "tool": "Operato AI",
-            "engine": "perplexity"
-        },
-        {
-            "c": 1,
-            "tool": "HubSpot AI Search Grader / AEO",
-            "engine": "perplexity"
-        },
-        {
-            "c": 1,
-            "tool": "Similarweb's AI Citation Analysis",
-            "engine": "perplexity"
-        },
-        {
-            "c": 1,
-            "tool": "Hootsuite LLM Insights",
-            "engine": "perplexity"
-        },
-        {
-            "c": 1,
-            "tool": "HubSpot AEO / AI Search Grader",
-            "engine": "perplexity"
-        },
-        {
-            "c": 1,
-            "tool": "Ahrefs AI Visibility Checker",
-            "engine": "perplexity"
-        },
-        {
-            "c": 1,
-            "tool": "AthenaHQ",
-            "engine": "perplexity"
-        },
-        {
-            "c": 1,
-            "tool": "JSON Schema App",
-            "engine": "perplexity"
-        }
-    ]
+  "runs": [
+    {
+      "status": "completed",
+      "goal_met": false,
+      "run_date": "2026-10-14",
+      "streak_days": 0,
+      "engines_answered": 6
+    },
+    {
+      "status": "completed",
+      "goal_met": false,
+      "run_date": "2026-10-15",
+      "streak_days": 0,
+      "engines_answered": 6
+    },
+    {
+      "status": "completed",
+      "goal_met": false,
+      "run_date": "2026-10-16",
+      "streak_days": 0,
+      "engines_answered": 6
+    },
+    {
+      "status": "completed",
+      "goal_met": false,
+      "run_date": "2026-10-17",
+      "streak_days": 0,
+      "engines_answered": 6
+    }
+  ],
+  "engines": [
+    {
+      "ok": 120,
+      "engine": "anthropic",
+      "answers": 120,
+      "sextant_first": 0,
+      "sextant_named": 0
+    },
+    {
+      "ok": 120,
+      "engine": "gemini",
+      "answers": 120,
+      "sextant_first": 0,
+      "sextant_named": 0
+    },
+    {
+      "ok": 116,
+      "engine": "google_aio",
+      "answers": 120,
+      "sextant_first": 0,
+      "sextant_named": 0
+    },
+    {
+      "ok": 120,
+      "engine": "grok",
+      "answers": 120,
+      "sextant_first": 0,
+      "sextant_named": 0
+    },
+    {
+      "ok": 120,
+      "engine": "openai",
+      "answers": 120,
+      "sextant_first": 0,
+      "sextant_named": 0
+    },
+    {
+      "ok": 120,
+      "engine": "perplexity",
+      "answers": 120,
+      "sextant_first": 0,
+      "sextant_named": 0
+    }
+  ],
+  "prompts": [
+    {
+      "key": "bhag_01",
+      "prompt_text": "What are the best AEO platforms for marketing agencies?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_02",
+      "prompt_text": "Which tools measure how AI assistants describe a brand?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_03",
+      "prompt_text": "What should I use to track my brand in ChatGPT, Perplexity and Gemini?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_04",
+      "prompt_text": "Which Answer Engine Optimization tools can audit and fix AI visibility?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_05",
+      "prompt_text": "What are the top AI visibility monitoring tools for agencies?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_06",
+      "prompt_text": "Which platforms offer white-label AEO reporting for agencies?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_07",
+      "prompt_text": "How can a brand find out which pages AI engines cite about it, and which tool does that?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_08",
+      "prompt_text": "What tools generate schema and content fixes for AI search visibility?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_09",
+      "prompt_text": "Which AEO tools certify a brand's AI visibility?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_10",
+      "prompt_text": "What is the best alternative to traditional SEO tools for AI search?",
+      "experimental": false
+    }
+  ],
+  "top_urls": [
+    {
+      "n": 13,
+      "url": "https://zapier.com/blog/best-ai-visibility-tool/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 13,
+      "url": "https://yourcontentmart.co/best-answer-engine-optimization-agencies/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 13,
+      "url": "https://www.youtube.com/watch?v=DMPSZw75vko",
+      "engines": "google_aio"
+    },
+    {
+      "n": 11,
+      "url": "https://www.youtube.com/watch?v=6USHNsRNoFM",
+      "engines": "google_aio"
+    },
+    {
+      "n": 11,
+      "url": "https://www.tryanalyze.ai/blog/ai-visibility-tools-for-agencies",
+      "engines": "google_aio"
+    },
+    {
+      "n": 10,
+      "url": "https://verbatimdigital.com/articles/best-ai-visibility-tools",
+      "engines": "google_aio"
+    },
+    {
+      "n": 10,
+      "url": "https://www.stylefactoryproductions.com/blog/best-seo-ai-visibility-tools",
+      "engines": "google_aio"
+    },
+    {
+      "n": 10,
+      "url": "https://thatware.co/best-ai-visibility-tools-for-agencies/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 9,
+      "url": "https://scalevisible.com/marketing-tools/best-ai-visibility-tools/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 9,
+      "url": "https://blog.frizerly.com/22976/_best_aeo_software_tools_for_seo_agencies",
+      "engines": "google_aio"
+    },
+    {
+      "n": 8,
+      "url": "https://www.tryanalyze.ai/blog/leading-ai-visibility-optimization-tools",
+      "engines": "google_aio"
+    },
+    {
+      "n": 8,
+      "url": "https://www.citehawk.com/blog/brand-monitoring-tools",
+      "engines": "google_aio"
+    },
+    {
+      "n": 8,
+      "url": "https://geneo.app/blog/ai-monitoring-tools-white-label-reporting-agencies/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 7,
+      "url": "https://blog.frizerly.com/21271/_best_aipowered_seo_reporting_platforms_for_agencies_with_whitelabel_options",
+      "engines": "google_aio"
+    },
+    {
+      "n": 7,
+      "url": "https://webflow.com/blog/aeo-tools",
+      "engines": "google_aio"
+    },
+    {
+      "n": 7,
+      "url": "https://alhena.ai/blog/best-ai-visibility-tools-ecommerce/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 6,
+      "url": "https://www.dageno.ai/blog/ai-visibility-products-with-the-best-optimization",
+      "engines": "google_aio"
+    },
+    {
+      "n": 6,
+      "url": "https://mybrandi.ai/ai-visibility-platforms-for-generative-engine-optimization/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 6,
+      "url": "https://sedestral.com/en/blog/ai-search-visibility-tools",
+      "engines": "google_aio"
+    },
+    {
+      "n": 6,
+      "url": "https://www.besthunt.ai/ai-brand-tools",
+      "engines": "google_aio"
+    },
+    {
+      "n": 6,
+      "url": "https://getairefs.com/blog/best-white-label-seo-software/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 6,
+      "url": "https://www.allable.ai/blog/best-aeo-tools-for-marketing/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 6,
+      "url": "https://www.hubspot.com/products/aeo",
+      "engines": "google_aio"
+    },
+    {
+      "n": 6,
+      "url": "https://www.frizerly.com/best-white-label-seo-software-for-agencies.html",
+      "engines": "google_aio"
+    },
+    {
+      "n": 6,
+      "url": "https://maxaeo.ai/blog/best-ai-visibility-tools/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 6,
+      "url": "https://www.youtube.com/watch?v=IPjKv5wxxnw&t=65",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://www.brandlight.ai/blog/best-ai-visibility-tools-for-agencies",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://scopicstudios.com/blog/8-best-ai-brand-monitoring-tools-in-2026/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://roidigitally.com/blog/what-are-the-best-aeo-services/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://www.youtube.com/watch?v=qrLTK1EJGbM",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://maxaeo.ai/ai-tools/best-ai-seo-tools/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://optimizeyour.blog/learn/troubleshooting/how-to-check-if-ai-is-citing-your-content",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://www.thecssagency.com/blog/how-to-track-ai-citations",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://productionsoup.io/insights/best-ai-brand-visibility-monitoring-tools-for-enterprises-in/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://brainadz.marketing/blog/best-seo-aeo-tools",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://freddiechatt.com/ai-seo-tools/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://www.instagram.com/popular/what-are-the-best-ai-visibility-tools-for-aeo/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://www.hubspot.com/ai-search-grader",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://www.linkedin.com/posts/sushanthbalaravi_aeo-answerengineoptimization-seo-activity-7442330580857520129-FSce",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://trendopinion.com/ai-sentiment-analysis-tools-for-brand-monitoring-compared-ranked/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://www.averi.ai/learn/how-to-track-your-brand-s-visibility-in-chatgpt-other-top-llms",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://qoulomb.com/tools-to-track-brand-mentions-in-chatgpt-and-gemini/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://www.flint.com/articles/best-ai-visibility-tracking-tools",
+      "engines": "google_aio"
+    },
+    {
+      "n": 5,
+      "url": "https://www.linkedin.com/posts/willbagnall_track-ai-traffic-in-ga4-understand-your-activity-7321099341992009730-OIjM",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://aionx.co/ai-comparisons/best-seo-tools-ai-content-marketers/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://searchfit.ai/blog/how-to-track-your-brands-visibility-in-chatgpt",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://aimultiple.com/answer-engine-optimization-tools",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://semai.ai/ai-answer-engine-optimization-tool",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://www.dageno.ai/blog/best-tools-for-tracking-ai-citation-authority",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://leapshq.com/blog/ai-tools-for-seo-and-aeo",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://quantumagency.io/white-label-aeo-solutions/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://cogny.com/blog/ai-visibility-chatgpt-claude-gemini-perplexity",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://ranklytics.ai/features/ai-visibility-monitoring/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://rankllm.link/blog/best-aeo-tools/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://www.calendar.com/blog/top-answer-engine-optimization-tools-for-improving-ai-search-visibility/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ai-visibility-launches-free-tool-to-measure-whether-ai-assistants-recommend-your-brand/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://addlly.ai/blog/role-of-schema-markup-in-ai-search-visibility/",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://searchengineland.com/aeo-tools-476314",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://stellagent.ai/insights/ai-search-engines-comparison",
+      "engines": "google_aio"
+    },
+    {
+      "n": 4,
+      "url": "https://insites.com/blog/the-8-best-ai-visibility-and-geo-auditing-tools-for-digital-marketing-agencies/",
+      "engines": "google_aio"
+    }
+  ],
+  "leaderboard": [
+    {
+      "tool": "Profound",
+      "first_count": 233
+    },
+    {
+      "tool": "Otterly",
+      "first_count": 28
+    },
+    {
+      "tool": "Brandwatch",
+      "first_count": 25
+    },
+    {
+      "tool": "Semrush AI Toolkit",
+      "first_count": 22
+    },
+    {
+      "tool": "Schema App",
+      "first_count": 19
+    },
+    {
+      "tool": "Peec AI",
+      "first_count": 16
+    },
+    {
+      "tool": "WordLift",
+      "first_count": 16
+    },
+    {
+      "tool": "HubSpot AI Search Grader",
+      "first_count": 14
+    },
+    {
+      "tool": "Scrunch",
+      "first_count": 13
+    },
+    {
+      "tool": "Surfer SEO",
+      "first_count": 12
+    },
+    {
+      "tool": "Schema.org Markup Generator",
+      "first_count": 12
+    },
+    {
+      "tool": "Semrush AI Visibility Toolkit",
+      "first_count": 11
+    },
+    {
+      "tool": "Writesonic",
+      "first_count": 11
+    },
+    {
+      "tool": "Ahrefs Brand Radar",
+      "first_count": 9
+    },
+    {
+      "tool": "Semrush's AI Visibility Toolkit",
+      "first_count": 8
+    },
+    {
+      "tool": "Semrush One",
+      "first_count": 8
+    },
+    {
+      "tool": "Glimpse",
+      "first_count": 8
+    },
+    {
+      "tool": "Brandwatch AI",
+      "first_count": 6
+    },
+    {
+      "tool": "GeoVector",
+      "first_count": 6
+    },
+    {
+      "tool": "HubSpot AEO",
+      "first_count": 6
+    },
+    {
+      "tool": "Ayzeo",
+      "first_count": 6
+    },
+    {
+      "tool": "AgencyAnalytics",
+      "first_count": 6
+    },
+    {
+      "tool": "Frizerly",
+      "first_count": 5
+    },
+    {
+      "tool": "BrightEdge",
+      "first_count": 4
+    },
+    {
+      "tool": "Brand24",
+      "first_count": 4
+    },
+    {
+      "tool": "Semrush ONE",
+      "first_count": 4
+    },
+    {
+      "tool": "Hootsuite/Talkwalker LLM Insights",
+      "first_count": 4
+    },
+    {
+      "tool": "Asva AI",
+      "first_count": 3
+    },
+    {
+      "tool": "Radar Kit",
+      "first_count": 3
+    },
+    {
+      "tool": "Perception Check",
+      "first_count": 3
+    },
+    {
+      "tool": "Loudmink",
+      "first_count": 3
+    },
+    {
+      "tool": "Gauge",
+      "first_count": 3
+    },
+    {
+      "tool": "Bing Webmaster Tools",
+      "first_count": 3
+    },
+    {
+      "tool": "RadarKit",
+      "first_count": 3
+    },
+    {
+      "tool": "LLM Pulse",
+      "first_count": 3
+    },
+    {
+      "tool": "Goodie by NoGood",
+      "first_count": 3
+    },
+    {
+      "tool": "LovedByAI",
+      "first_count": 3
+    },
+    {
+      "tool": "WorkDuo",
+      "first_count": 2
+    },
+    {
+      "tool": "SurferSEO",
+      "first_count": 2
+    },
+    {
+      "tool": "SE Ranking",
+      "first_count": 2
+    },
+    {
+      "tool": "Cogny",
+      "first_count": 2
+    },
+    {
+      "tool": "VisibilityStack",
+      "first_count": 2
+    },
+    {
+      "tool": "OtterlyAI",
+      "first_count": 2
+    },
+    {
+      "tool": "Clearscope",
+      "first_count": 2
+    },
+    {
+      "tool": "Google AI Overviews",
+      "first_count": 2
+    },
+    {
+      "tool": "AthenaHQ",
+      "first_count": 2
+    },
+    {
+      "tool": "MarketMuse",
+      "first_count": 2
+    },
+    {
+      "tool": "AIclicks",
+      "first_count": 2
+    },
+    {
+      "tool": "Scrunch.ai",
+      "first_count": 2
+    },
+    {
+      "tool": "Frase",
+      "first_count": 2
+    },
+    {
+      "tool": "AlsoAsked",
+      "first_count": 2
+    },
+    {
+      "tool": "Authoritas",
+      "first_count": 2
+    },
+    {
+      "tool": "Ahrefs AI Visibility Checker",
+      "first_count": 1
+    },
+    {
+      "tool": "WordPress",
+      "first_count": 1
+    },
+    {
+      "tool": "Peec.ai",
+      "first_count": 1
+    },
+    {
+      "tool": "Evertune",
+      "first_count": 1
+    },
+    {
+      "tool": "Brandlight",
+      "first_count": 1
+    },
+    {
+      "tool": "SE Visible by SE Ranking",
+      "first_count": 1
+    },
+    {
+      "tool": "Brandi AI",
+      "first_count": 1
+    },
+    {
+      "tool": "SuperSchema",
+      "first_count": 1
+    },
+    {
+      "tool": "Perplexity",
+      "first_count": 1
+    },
+    {
+      "tool": "Python",
+      "first_count": 1
+    },
+    {
+      "tool": "CLEO by RegenAI",
+      "first_count": 1
+    },
+    {
+      "tool": ".ai",
+      "first_count": 1
+    },
+    {
+      "tool": "AEO.tools",
+      "first_count": 1
+    },
+    {
+      "tool": "BrandMentions",
+      "first_count": 1
+    },
+    {
+      "tool": "SE Visible",
+      "first_count": 1
+    },
+    {
+      "tool": "HubSpot AI",
+      "first_count": 1
+    },
+    {
+      "tool": "HubSpot AI Search Grader / AEO",
+      "first_count": 1
+    },
+    {
+      "tool": "Hootsuite LLM Insights",
+      "first_count": 1
+    },
+    {
+      "tool": "AI Visibility Pro",
+      "first_count": 1
+    },
+    {
+      "tool": "Goody AI",
+      "first_count": 1
+    },
+    {
+      "tool": "HubSpot AEO & AI Search Grader",
+      "first_count": 1
+    },
+    {
+      "tool": "Relixir",
+      "first_count": 1
+    },
+    {
+      "tool": "Yext",
+      "first_count": 1
+    },
+    {
+      "tool": "Goodie",
+      "first_count": 1
+    },
+    {
+      "tool": "Sight AI",
+      "first_count": 1
+    },
+    {
+      "tool": "Merkle Schema Markup Generator",
+      "first_count": 1
+    },
+    {
+      "tool": "Addlly AI",
+      "first_count": 1
+    },
+    {
+      "tool": "Operato AI",
+      "first_count": 1
+    },
+    {
+      "tool": "Dageno AI",
+      "first_count": 1
+    },
+    {
+      "tool": "Alli AI",
+      "first_count": 1
+    },
+    {
+      "tool": "AI Visibility",
+      "first_count": 1
+    },
+    {
+      "tool": "Google Search Console",
+      "first_count": 1
+    },
+    {
+      "tool": "Frase.io",
+      "first_count": 1
+    },
+    {
+      "tool": "JSON Schema App",
+      "first_count": 1
+    },
+    {
+      "tool": "Cognizo",
+      "first_count": 1
+    },
+    {
+      "tool": "Conductor",
+      "first_count": 1
+    },
+    {
+      "tool": "AEOVisor",
+      "first_count": 1
+    },
+    {
+      "tool": "Super Schema",
+      "first_count": 1
+    },
+    {
+      "tool": "Agency Platform",
+      "first_count": 1
+    },
+    {
+      "tool": "peec.ai",
+      "first_count": 1
+    },
+    {
+      "tool": "AccuRanker",
+      "first_count": 1
+    },
+    {
+      "tool": "Looker Studio",
+      "first_count": 1
+    },
+    {
+      "tool": "HubSpot AEO / AI Search Grader",
+      "first_count": 1
+    },
+    {
+      "tool": "Topify",
+      "first_count": 1
+    },
+    {
+      "tool": "Similarweb AI Search Intelligence",
+      "first_count": 1
+    },
+    {
+      "tool": "OnCited",
+      "first_count": 1
+    },
+    {
+      "tool": "Similarweb's AI Citation Analysis",
+      "first_count": 1
+    },
+    {
+      "tool": "MaxAEO",
+      "first_count": 1
+    },
+    {
+      "tool": "Arize AI",
+      "first_count": 1
+    }
+  ],
+  "top_domains": [
+    {
+      "n": 103,
+      "domain": "youtube.com",
+      "sextant": false
+    },
+    {
+      "n": 34,
+      "domain": "blog.frizerly.com",
+      "sextant": false
+    },
+    {
+      "n": 30,
+      "domain": "linkedin.com",
+      "sextant": false
+    },
+    {
+      "n": 24,
+      "domain": "maxaeo.ai",
+      "sextant": false
+    },
+    {
+      "n": 20,
+      "domain": "tryanalyze.ai",
+      "sextant": false
+    },
+    {
+      "n": 19,
+      "domain": "reddit.com",
+      "sextant": false
+    },
+    {
+      "n": 18,
+      "domain": "dageno.ai",
+      "sextant": false
+    },
+    {
+      "n": 16,
+      "domain": "zapier.com",
+      "sextant": false
+    },
+    {
+      "n": 15,
+      "domain": "hubspot.com",
+      "sextant": false
+    },
+    {
+      "n": 13,
+      "domain": "thatware.co",
+      "sextant": false
+    },
+    {
+      "n": 13,
+      "domain": "yourcontentmart.co",
+      "sextant": false
+    },
+    {
+      "n": 11,
+      "domain": "trysight.ai",
+      "sextant": false
+    },
+    {
+      "n": 11,
+      "domain": "alhena.ai",
+      "sextant": false
+    },
+    {
+      "n": 11,
+      "domain": "llmpulse.ai",
+      "sextant": false
+    },
+    {
+      "n": 10,
+      "domain": "stylefactoryproductions.com",
+      "sextant": false
+    },
+    {
+      "n": 10,
+      "domain": "verbatimdigital.com",
+      "sextant": false
+    },
+    {
+      "n": 9,
+      "domain": "therankmasters.com",
+      "sextant": false
+    },
+    {
+      "n": 9,
+      "domain": "scalevisible.com",
+      "sextant": false
+    },
+    {
+      "n": 9,
+      "domain": "semrush.com",
+      "sextant": false
+    },
+    {
+      "n": 8,
+      "domain": "facebook.com",
+      "sextant": false
+    },
+    {
+      "n": 8,
+      "domain": "geneo.app",
+      "sextant": false
+    },
+    {
+      "n": 8,
+      "domain": "citehawk.com",
+      "sextant": false
+    },
+    {
+      "n": 7,
+      "domain": "ayzeo.com",
+      "sextant": false
+    },
+    {
+      "n": 7,
+      "domain": "blogs.listablelabs.com",
+      "sextant": false
+    },
+    {
+      "n": 7,
+      "domain": "webflow.com",
+      "sextant": false
+    },
+    {
+      "n": 7,
+      "domain": "visibilitystack.ai",
+      "sextant": false
+    },
+    {
+      "n": 7,
+      "domain": "stackmatix.com",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "quora.com",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "besthunt.ai",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "instagram.com",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "frizerly.com",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "workduo.ai",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "topify.ai",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "getairefs.com",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "frase.io",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "mybrandi.ai",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "indexly.ai",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "allable.ai",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "sedestral.com",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "google.com",
+      "sextant": false
+    }
+  ],
+  "generated_at": "2026-10-18T11:39:08.338157+00:00",
+  "leaderboard_by_engine": [
+    {
+      "c": 49,
+      "tool": "Profound",
+      "engine": "anthropic"
+    },
+    {
+      "c": 25,
+      "tool": "Brandwatch",
+      "engine": "anthropic"
+    },
+    {
+      "c": 12,
+      "tool": "Schema.org Markup Generator",
+      "engine": "anthropic"
+    },
+    {
+      "c": 10,
+      "tool": "Semrush AI Toolkit",
+      "engine": "anthropic"
+    },
+    {
+      "c": 7,
+      "tool": "Surfer SEO",
+      "engine": "anthropic"
+    },
+    {
+      "c": 6,
+      "tool": "Otterly",
+      "engine": "anthropic"
+    },
+    {
+      "c": 6,
+      "tool": "Brandwatch AI",
+      "engine": "anthropic"
+    },
+    {
+      "c": 2,
+      "tool": "Authoritas",
+      "engine": "anthropic"
+    },
+    {
+      "c": 2,
+      "tool": "Clearscope",
+      "engine": "anthropic"
+    },
+    {
+      "c": 1,
+      "tool": "Brandlight",
+      "engine": "anthropic"
+    },
+    {
+      "c": 5,
+      "tool": "WordLift",
+      "engine": "gemini"
+    },
+    {
+      "c": 4,
+      "tool": "Brand24",
+      "engine": "gemini"
+    },
+    {
+      "c": 3,
+      "tool": "Peec AI",
+      "engine": "gemini"
+    },
+    {
+      "c": 3,
+      "tool": "Ahrefs Brand Radar",
+      "engine": "gemini"
+    },
+    {
+      "c": 2,
+      "tool": "Google AI Overviews",
+      "engine": "gemini"
+    },
+    {
+      "c": 2,
+      "tool": "BrightEdge",
+      "engine": "gemini"
+    },
+    {
+      "c": 1,
+      "tool": ".ai",
+      "engine": "gemini"
+    },
+    {
+      "c": 1,
+      "tool": "SE Ranking",
+      "engine": "gemini"
+    },
+    {
+      "c": 1,
+      "tool": "Looker Studio",
+      "engine": "gemini"
+    },
+    {
+      "c": 1,
+      "tool": "AccuRanker",
+      "engine": "gemini"
+    },
+    {
+      "c": 1,
+      "tool": "HubSpot AI",
+      "engine": "gemini"
+    },
+    {
+      "c": 1,
+      "tool": "Arize AI",
+      "engine": "gemini"
+    },
+    {
+      "c": 1,
+      "tool": "Frase",
+      "engine": "gemini"
+    },
+    {
+      "c": 1,
+      "tool": "Yext",
+      "engine": "gemini"
+    },
+    {
+      "c": 1,
+      "tool": "Python",
+      "engine": "gemini"
+    },
+    {
+      "c": 1,
+      "tool": "WordPress",
+      "engine": "gemini"
+    },
+    {
+      "c": 22,
+      "tool": "Profound",
+      "engine": "google_aio"
+    },
+    {
+      "c": 9,
+      "tool": "Otterly",
+      "engine": "google_aio"
+    },
+    {
+      "c": 6,
+      "tool": "Ayzeo",
+      "engine": "google_aio"
+    },
+    {
+      "c": 6,
+      "tool": "HubSpot AEO",
+      "engine": "google_aio"
+    },
+    {
+      "c": 5,
+      "tool": "Frizerly",
+      "engine": "google_aio"
+    },
+    {
+      "c": 4,
+      "tool": "Semrush AI Toolkit",
+      "engine": "google_aio"
+    },
+    {
+      "c": 3,
+      "tool": "Bing Webmaster Tools",
+      "engine": "google_aio"
+    },
+    {
+      "c": 3,
+      "tool": "Goodie by NoGood",
+      "engine": "google_aio"
+    },
+    {
+      "c": 3,
+      "tool": "Asva AI",
+      "engine": "google_aio"
+    },
+    {
+      "c": 3,
+      "tool": "RadarKit",
+      "engine": "google_aio"
+    },
+    {
+      "c": 3,
+      "tool": "Radar Kit",
+      "engine": "google_aio"
+    },
+    {
+      "c": 3,
+      "tool": "Gauge",
+      "engine": "google_aio"
+    },
+    {
+      "c": 3,
+      "tool": "Perception Check",
+      "engine": "google_aio"
+    },
+    {
+      "c": 2,
+      "tool": "AIclicks",
+      "engine": "google_aio"
+    },
+    {
+      "c": 2,
+      "tool": "WordLift",
+      "engine": "google_aio"
+    },
+    {
+      "c": 2,
+      "tool": "OtterlyAI",
+      "engine": "google_aio"
+    },
+    {
+      "c": 2,
+      "tool": "HubSpot AI Search Grader",
+      "engine": "google_aio"
+    },
+    {
+      "c": 2,
+      "tool": "Peec AI",
+      "engine": "google_aio"
+    },
+    {
+      "c": 2,
+      "tool": "VisibilityStack",
+      "engine": "google_aio"
+    },
+    {
+      "c": 2,
+      "tool": "Cogny",
+      "engine": "google_aio"
+    },
+    {
+      "c": 2,
+      "tool": "WorkDuo",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Similarweb AI Search Intelligence",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "HubSpot AEO & AI Search Grader",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "MaxAEO",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Semrush AI Visibility Toolkit",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "OnCited",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Goody AI",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "AI Visibility",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "SE Visible",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Agency Platform",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "SuperSchema",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Addlly AI",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Sight AI",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Schema App",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Topify",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Cognizo",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Evertune",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Scrunch",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "AEOVisor",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Brandi AI",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "SE Visible by SE Ranking",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Super Schema",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Dageno AI",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "SE Ranking",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "CLEO by RegenAI",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Google Search Console",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "AI Visibility Pro",
+      "engine": "google_aio"
+    },
+    {
+      "c": 1,
+      "tool": "Goodie",
+      "engine": "google_aio"
+    },
+    {
+      "c": 40,
+      "tool": "Profound",
+      "engine": "grok"
+    },
+    {
+      "c": 12,
+      "tool": "Scrunch",
+      "engine": "grok"
+    },
+    {
+      "c": 8,
+      "tool": "Glimpse",
+      "engine": "grok"
+    },
+    {
+      "c": 8,
+      "tool": "WordLift",
+      "engine": "grok"
+    },
+    {
+      "c": 6,
+      "tool": "Semrush AI Toolkit",
+      "engine": "grok"
+    },
+    {
+      "c": 6,
+      "tool": "AgencyAnalytics",
+      "engine": "grok"
+    },
+    {
+      "c": 6,
+      "tool": "Peec AI",
+      "engine": "grok"
+    },
+    {
+      "c": 5,
+      "tool": "Surfer SEO",
+      "engine": "grok"
+    },
+    {
+      "c": 3,
+      "tool": "Schema App",
+      "engine": "grok"
+    },
+    {
+      "c": 3,
+      "tool": "Ahrefs Brand Radar",
+      "engine": "grok"
+    },
+    {
+      "c": 2,
+      "tool": "MarketMuse",
+      "engine": "grok"
+    },
+    {
+      "c": 2,
+      "tool": "Scrunch.ai",
+      "engine": "grok"
+    },
+    {
+      "c": 2,
+      "tool": "SurferSEO",
+      "engine": "grok"
+    },
+    {
+      "c": 2,
+      "tool": "BrightEdge",
+      "engine": "grok"
+    },
+    {
+      "c": 2,
+      "tool": "AlsoAsked",
+      "engine": "grok"
+    },
+    {
+      "c": 1,
+      "tool": "Conductor",
+      "engine": "grok"
+    },
+    {
+      "c": 1,
+      "tool": "AEO.tools",
+      "engine": "grok"
+    },
+    {
+      "c": 1,
+      "tool": "Perplexity",
+      "engine": "grok"
+    },
+    {
+      "c": 1,
+      "tool": "peec.ai",
+      "engine": "grok"
+    },
+    {
+      "c": 1,
+      "tool": "Otterly",
+      "engine": "grok"
+    },
+    {
+      "c": 1,
+      "tool": "AthenaHQ",
+      "engine": "grok"
+    },
+    {
+      "c": 1,
+      "tool": "Merkle Schema Markup Generator",
+      "engine": "grok"
+    },
+    {
+      "c": 1,
+      "tool": "Peec.ai",
+      "engine": "grok"
+    },
+    {
+      "c": 1,
+      "tool": "Relixir",
+      "engine": "grok"
+    },
+    {
+      "c": 1,
+      "tool": "BrandMentions",
+      "engine": "grok"
+    },
+    {
+      "c": 1,
+      "tool": "Alli AI",
+      "engine": "grok"
+    },
+    {
+      "c": 1,
+      "tool": "Frase",
+      "engine": "grok"
+    },
+    {
+      "c": 1,
+      "tool": "Frase.io",
+      "engine": "grok"
+    },
+    {
+      "c": 96,
+      "tool": "Profound",
+      "engine": "openai"
+    },
+    {
+      "c": 12,
+      "tool": "Otterly",
+      "engine": "openai"
+    },
+    {
+      "c": 10,
+      "tool": "Schema App",
+      "engine": "openai"
+    },
+    {
+      "c": 1,
+      "tool": "Ahrefs Brand Radar",
+      "engine": "openai"
+    },
+    {
+      "c": 1,
+      "tool": "WordLift",
+      "engine": "openai"
+    },
+    {
+      "c": 26,
+      "tool": "Profound",
+      "engine": "perplexity"
+    },
+    {
+      "c": 12,
+      "tool": "HubSpot AI Search Grader",
+      "engine": "perplexity"
+    },
+    {
+      "c": 11,
+      "tool": "Writesonic",
+      "engine": "perplexity"
+    },
+    {
+      "c": 10,
+      "tool": "Semrush AI Visibility Toolkit",
+      "engine": "perplexity"
+    },
+    {
+      "c": 8,
+      "tool": "Semrush One",
+      "engine": "perplexity"
+    },
+    {
+      "c": 8,
+      "tool": "Semrush's AI Visibility Toolkit",
+      "engine": "perplexity"
+    },
+    {
+      "c": 6,
+      "tool": "GeoVector",
+      "engine": "perplexity"
+    },
+    {
+      "c": 5,
+      "tool": "Schema App",
+      "engine": "perplexity"
+    },
+    {
+      "c": 5,
+      "tool": "Peec AI",
+      "engine": "perplexity"
+    },
+    {
+      "c": 4,
+      "tool": "Semrush ONE",
+      "engine": "perplexity"
+    },
+    {
+      "c": 4,
+      "tool": "Hootsuite/Talkwalker LLM Insights",
+      "engine": "perplexity"
+    },
+    {
+      "c": 3,
+      "tool": "Loudmink",
+      "engine": "perplexity"
+    },
+    {
+      "c": 3,
+      "tool": "LovedByAI",
+      "engine": "perplexity"
+    },
+    {
+      "c": 3,
+      "tool": "LLM Pulse",
+      "engine": "perplexity"
+    },
+    {
+      "c": 2,
+      "tool": "Semrush AI Toolkit",
+      "engine": "perplexity"
+    },
+    {
+      "c": 2,
+      "tool": "Ahrefs Brand Radar",
+      "engine": "perplexity"
+    },
+    {
+      "c": 1,
+      "tool": "Operato AI",
+      "engine": "perplexity"
+    },
+    {
+      "c": 1,
+      "tool": "HubSpot AI Search Grader / AEO",
+      "engine": "perplexity"
+    },
+    {
+      "c": 1,
+      "tool": "Similarweb's AI Citation Analysis",
+      "engine": "perplexity"
+    },
+    {
+      "c": 1,
+      "tool": "Hootsuite LLM Insights",
+      "engine": "perplexity"
+    },
+    {
+      "c": 1,
+      "tool": "HubSpot AEO / AI Search Grader",
+      "engine": "perplexity"
+    },
+    {
+      "c": 1,
+      "tool": "Ahrefs AI Visibility Checker",
+      "engine": "perplexity"
+    },
+    {
+      "c": 1,
+      "tool": "AthenaHQ",
+      "engine": "perplexity"
+    },
+    {
+      "c": 1,
+      "tool": "JSON Schema App",
+      "engine": "perplexity"
+    }
+  ],
+  "engines_under_review": [
+    "gemini"
+  ],
+  "engines_under_review_note": "gemini: the collector capped output at 1024 tokens during this edition, so most Gemini answers were cut off before naming a tool. Gemini counts are reported but should not be compared with the other engines. Fixed on 2026-10-18 for the next edition."
 }

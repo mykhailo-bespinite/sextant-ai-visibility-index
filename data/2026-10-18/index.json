@@ -1696,5 +1696,5 @@
   "engines_under_review": [
     "gemini"
   ],
-  "engines_under_review_note": "gemini: the collector capped output at 1024 tokens during this edition, so most Gemini answers were cut off before naming a tool. Gemini counts are reported but should not be compared with the other engines. Fixed on 2026-10-18 for the next edition."
+  "engines_under_review_note": "Gemini's answers were cut short by our collector in this edition, so most of them name no tool. Gemini is counted but not compared with the other engines. The collector was fixed on 18 October for the next edition."
 }

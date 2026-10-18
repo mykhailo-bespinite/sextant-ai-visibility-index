@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: Sextant AI Visibility Index
+message: If you use this dataset, please cite it as below.
+type: dataset
+authors:
+  - name: Shearwater Labs, LLC (Sextant AEO)
+    website: https://sextantaeo.com
+repository-code: https://github.com/mykhailo-bespinite/sextant-ai-visibility-index
+url: https://sextantaeo.com/research/ai-engines-aeo-tools
+license: CC-BY-4.0
+date-released: 2026-10-18
+version: 2026-10-18

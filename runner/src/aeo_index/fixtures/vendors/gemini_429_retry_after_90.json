@@ -1,0 +1,21 @@
+{
+  "description": "Gemini: quota exhausted, asks for 90 seconds",
+  "status": 429,
+  "headers": {
+    "content-type": "application/json",
+    "retry-after": "90"
+  },
+  "body": {
+    "error": {
+      "code": 429,
+      "message": "Resource has been exhausted (e.g. check quota).",
+      "status": "RESOURCE_EXHAUSTED"
+    }
+  },
+  "expected": {
+    "error_type": "rate_limited",
+    "status_code": 429,
+    "retry_after": 90.0,
+    "cost_usd": "0.000000"
+  }
+}

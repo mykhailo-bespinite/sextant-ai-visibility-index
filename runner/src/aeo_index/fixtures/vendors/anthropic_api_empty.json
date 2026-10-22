@@ -1,0 +1,26 @@
+{
+  "description": "Anthropic Messages: stopped at max_tokens with no text",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "msg_fixture",
+    "type": "message",
+    "role": "assistant",
+    "model": "claude-sonnet-4-6",
+    "content": [],
+    "stop_reason": "max_tokens",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 22,
+      "output_tokens": 1024
+    }
+  },
+  "expected": {
+    "error_type": "empty",
+    "status_code": null,
+    "retry_after": null,
+    "cost_usd": "0.015426"
+  }
+}

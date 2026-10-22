@@ -1,0 +1,38 @@
+{
+  "description": "Gemini generateContent: MAX_TOKENS with only a thought part",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Still thinking.",
+              "thought": true
+            }
+          ]
+        },
+        "finishReason": "MAX_TOKENS",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 20,
+      "candidatesTokenCount": 0,
+      "thoughtsTokenCount": 8192,
+      "totalTokenCount": 8212
+    },
+    "modelVersion": "gemini-3.5-flash",
+    "responseId": "fixture-response"
+  },
+  "expected": {
+    "error_type": "empty",
+    "status_code": null,
+    "retry_after": null,
+    "cost_usd": "0.073758"
+  }
+}

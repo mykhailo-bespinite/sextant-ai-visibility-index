@@ -1,0 +1,20 @@
+{
+  "description": "Anthropic: overloaded",
+  "status": 503,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "error",
+    "error": {
+      "type": "overloaded_error",
+      "message": "Overloaded"
+    }
+  },
+  "expected": {
+    "error_type": "server",
+    "status_code": 503,
+    "retry_after": null,
+    "cost_usd": "0.000000"
+  }
+}

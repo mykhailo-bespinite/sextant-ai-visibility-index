@@ -1,0 +1,55 @@
+{
+  "description": "Anthropic Messages: searched, then hit max_tokens before the answer",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "msg_fixture",
+    "type": "message",
+    "role": "assistant",
+    "model": "claude-sonnet-4-6",
+    "content": [
+      {
+        "type": "text",
+        "text": "I'll search for current AEO platforms."
+      },
+      {
+        "type": "server_tool_use",
+        "id": "srvtoolu_1",
+        "name": "web_search",
+        "input": {
+          "query": "best AEO platform for agencies"
+        }
+      },
+      {
+        "type": "web_search_tool_result",
+        "tool_use_id": "srvtoolu_1",
+        "content": [
+          {
+            "type": "web_search_result",
+            "url": "https://example.com/reviews/aeo-tools",
+            "title": "AEO tools reviewed",
+            "encrypted_content": "enc",
+            "page_age": "October 1, 2026"
+          }
+        ]
+      }
+    ],
+    "stop_reason": "max_tokens",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 5000,
+      "output_tokens": 4096,
+      "server_tool_use": {
+        "web_search_requests": 1
+      }
+    }
+  },
+  "expected": {
+    "error_type": "empty",
+    "status_code": null,
+    "retry_after": null,
+    "cost_usd": "0.086440"
+  }
+}

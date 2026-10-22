@@ -1,0 +1,17 @@
+{
+  "description": "xAI: service unavailable",
+  "status": 503,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "code": "The service is currently unavailable",
+    "error": "Service temporarily unavailable."
+  },
+  "expected": {
+    "error_type": "server",
+    "status_code": 503,
+    "retry_after": null,
+    "cost_usd": "0.000000"
+  }
+}

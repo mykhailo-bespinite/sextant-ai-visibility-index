@@ -1,0 +1,51 @@
+# The ten unbranded questions of the Sextant AI Visibility Index.
+# The texts are the published ones (data/<edition>/prompts.csv); a changed
+# question is a new set id, never an edit of this file.
+# generic_example and exclude are left at their defaults.
+
+id = "sextant-index-v1"
+subject = "AEO (Answer Engine Optimization) or AI visibility tools"
+purpose = "AEO or AI visibility"
+brand = "Sextant AEO"
+brand_aliases = ["Sextant", "sextantaeo.com"]
+brand_domain = "sextantaeo.com"
+
+[[question]]
+key = "bhag_01"
+text = "What are the best AEO platforms for marketing agencies?"
+
+[[question]]
+key = "bhag_02"
+text = "Which tools measure how AI assistants describe a brand?"
+
+[[question]]
+key = "bhag_03"
+text = "What should I use to track my brand in ChatGPT, Perplexity and Gemini?"
+
+[[question]]
+key = "bhag_04"
+text = "Which Answer Engine Optimization tools can audit and fix AI visibility?"
+
+[[question]]
+key = "bhag_05"
+text = "What are the top AI visibility monitoring tools for agencies?"
+
+[[question]]
+key = "bhag_06"
+text = "Which platforms offer white-label AEO reporting for agencies?"
+
+[[question]]
+key = "bhag_07"
+text = "How can a brand find out which pages AI engines cite about it, and which tool does that?"
+
+[[question]]
+key = "bhag_08"
+text = "What tools generate schema and content fixes for AI search visibility?"
+
+[[question]]
+key = "bhag_09"
+text = "Which AEO tools certify a brand's AI visibility?"
+
+[[question]]
+key = "bhag_10"
+text = "What is the best alternative to traditional SEO tools for AI search?"

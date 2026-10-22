@@ -1,0 +1,64 @@
+{
+  "description": "Perplexity Sonar: citations plus search_results; the vendor's own total cost",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "pplx-fixture",
+    "model": "sonar-pro",
+    "created": 1761004800,
+    "object": "chat.completion",
+    "choices": [
+      {
+        "index": 0,
+        "finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "Profound and Peec AI lead most AEO tool lists for agencies [1][2]."
+        }
+      }
+    ],
+    "citations": [
+      "https://example.com/reviews/aeo-tools",
+      "https://example.com/lists/best-aeo"
+    ],
+    "search_results": [
+      {
+        "title": "Best AEO tools",
+        "url": "https://example.com/lists/best-aeo"
+      },
+      {
+        "title": "AEO research",
+        "url": "https://sextantaeo.com/research"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 12,
+      "completion_tokens": 420,
+      "total_tokens": 432,
+      "search_context_size": "low",
+      "cost": {
+        "input_tokens_cost": 3.6e-05,
+        "output_tokens_cost": 0.0063,
+        "request_cost": 0.006,
+        "total_cost": 0.012336
+      }
+    }
+  },
+  "expected": {
+    "text": "Profound and Peec AI lead most AEO tool lists for agencies [1][2].",
+    "model_version": "sonar-pro",
+    "input_tokens": 12,
+    "output_tokens": 420,
+    "citations": [
+      "https://example.com/reviews/aeo-tools",
+      "https://example.com/lists/best-aeo",
+      "https://sextantaeo.com/research"
+    ],
+    "search_count": null,
+    "search_queries": null,
+    "vendor_cost_usd": "0.012336",
+    "cost_usd": "0.012336"
+  }
+}

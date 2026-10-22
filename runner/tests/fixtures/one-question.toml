@@ -1,0 +1,11 @@
+# One index question, for the live smoke test (tests/test_live_smoke.py).
+id = "live-smoke-v1"
+subject = "AEO (Answer Engine Optimization) or AI visibility tools"
+purpose = "AEO or AI visibility"
+brand = "Sextant AEO"
+brand_aliases = ["Sextant", "sextantaeo.com"]
+brand_domain = "sextantaeo.com"
+
+[[question]]
+key = "bhag_01"
+text = "What are the best AEO platforms for marketing agencies?"

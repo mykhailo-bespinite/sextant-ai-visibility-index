@@ -1,0 +1,102 @@
+{
+  "description": "Anthropic Messages with web_search_20250305: the answer follows the last result",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "msg_fixture",
+    "type": "message",
+    "role": "assistant",
+    "model": "claude-sonnet-4-6",
+    "content": [
+      {
+        "type": "text",
+        "text": "I'll search for current AEO platforms."
+      },
+      {
+        "type": "server_tool_use",
+        "id": "srvtoolu_1",
+        "name": "web_search",
+        "input": {
+          "query": "best AEO platform for agencies"
+        }
+      },
+      {
+        "type": "web_search_tool_result",
+        "tool_use_id": "srvtoolu_1",
+        "content": [
+          {
+            "type": "web_search_result",
+            "url": "https://example.com/reviews/aeo-tools",
+            "title": "AEO tools reviewed",
+            "encrypted_content": "enc",
+            "page_age": "October 1, 2026"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Based on the results, "
+      },
+      {
+        "type": "text",
+        "text": "Profound leads for agencies",
+        "citations": [
+          {
+            "type": "web_search_result_location",
+            "url": "https://example.com/reviews/aeo-tools",
+            "title": "AEO tools reviewed",
+            "encrypted_index": "idx1",
+            "cited_text": "Profound ..."
+          },
+          {
+            "type": "web_search_result_location",
+            "url": "https://example.com/lists/best-aeo",
+            "title": "Best AEO tools",
+            "encrypted_index": "idx2",
+            "cited_text": "..."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": ".",
+        "citations": [
+          {
+            "type": "web_search_result_location",
+            "url": "https://example.com/reviews/aeo-tools",
+            "title": "AEO tools reviewed",
+            "encrypted_index": "idx3",
+            "cited_text": "duplicate"
+          }
+        ]
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 6000,
+      "output_tokens": 900,
+      "server_tool_use": {
+        "web_search_requests": 1
+      }
+    }
+  },
+  "expected": {
+    "text": "Based on the results, Profound leads for agencies.",
+    "model_version": "claude-sonnet-4-6",
+    "input_tokens": 6000,
+    "output_tokens": 900,
+    "citations": [
+      "https://example.com/reviews/aeo-tools",
+      "https://example.com/lists/best-aeo"
+    ],
+    "search_count": 1,
+    "search_queries": [
+      "best AEO platform for agencies"
+    ],
+    "vendor_cost_usd": null,
+    "cost_usd": "0.041500"
+  }
+}

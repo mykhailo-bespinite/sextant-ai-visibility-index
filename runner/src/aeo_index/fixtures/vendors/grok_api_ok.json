@@ -1,0 +1,42 @@
+{
+  "description": "xAI Chat Completions, grok-4.3; reasoning tokens bill as output",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "chatcmpl-fixture",
+    "object": "chat.completion",
+    "created": 1761004800,
+    "model": "grok-4.3",
+    "choices": [
+      {
+        "index": 0,
+        "finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "Profound and Peec AI are the usual picks for agencies."
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 30,
+      "completion_tokens": 500,
+      "total_tokens": 530,
+      "completion_tokens_details": {
+        "reasoning_tokens": 200
+      }
+    }
+  },
+  "expected": {
+    "text": "Profound and Peec AI are the usual picks for agencies.",
+    "model_version": "grok-4.3",
+    "input_tokens": 30,
+    "output_tokens": 700,
+    "citations": null,
+    "search_count": null,
+    "search_queries": null,
+    "vendor_cost_usd": null,
+    "cost_usd": "0.001788"
+  }
+}

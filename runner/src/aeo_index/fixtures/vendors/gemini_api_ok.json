@@ -1,0 +1,49 @@
+{
+  "description": "Gemini generateContent, no tools; a thought part is not the answer",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Weighing the usual lists first.",
+              "thought": true
+            },
+            {
+              "text": "Profound leads for agencies."
+            },
+            {
+              "text": "Peec AI is second."
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 20,
+      "candidatesTokenCount": 300,
+      "thoughtsTokenCount": 200,
+      "totalTokenCount": 520
+    },
+    "modelVersion": "gemini-3.5-flash",
+    "responseId": "fixture-response"
+  },
+  "expected": {
+    "text": "Profound leads for agencies.\nPeec AI is second.",
+    "model_version": "models/gemini-3.5-flash",
+    "input_tokens": 20,
+    "output_tokens": 500,
+    "citations": null,
+    "search_count": null,
+    "search_queries": null,
+    "vendor_cost_usd": null,
+    "cost_usd": "0.004530"
+  }
+}

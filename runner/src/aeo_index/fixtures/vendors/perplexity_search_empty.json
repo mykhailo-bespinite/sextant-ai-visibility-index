@@ -1,0 +1,41 @@
+{
+  "description": "Perplexity Sonar: cut off with no text; billed",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "pplx-fixture",
+    "model": "sonar-pro",
+    "created": 1761004800,
+    "object": "chat.completion",
+    "choices": [
+      {
+        "index": 0,
+        "finish_reason": "length",
+        "message": {
+          "role": "assistant",
+          "content": ""
+        }
+      }
+    ],
+    "citations": [],
+    "usage": {
+      "prompt_tokens": 12,
+      "completion_tokens": 1024,
+      "total_tokens": 1036,
+      "cost": {
+        "input_tokens_cost": 3.6e-05,
+        "output_tokens_cost": 0.01536,
+        "request_cost": 0.006,
+        "total_cost": 0.021396
+      }
+    }
+  },
+  "expected": {
+    "error_type": "empty",
+    "status_code": null,
+    "retry_after": null,
+    "cost_usd": "0.021396"
+  }
+}

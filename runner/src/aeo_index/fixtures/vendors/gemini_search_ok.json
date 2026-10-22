@@ -1,0 +1,89 @@
+{
+  "description": "Gemini generateContent with google_search grounding",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Weighing the usual lists first.",
+              "thought": true
+            },
+            {
+              "text": "Profound leads for agencies."
+            },
+            {
+              "text": "Peec AI is second."
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "best AEO platform for agencies",
+            "AEO tools comparison"
+          ],
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbC1",
+                "title": "example.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://example.com/lists/best-aeo",
+                "title": "Best AEO tools"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbC2",
+                "title": "Example.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbC3",
+                "title": "Not a domain"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 100,
+      "candidatesTokenCount": 300,
+      "thoughtsTokenCount": 200,
+      "toolUsePromptTokenCount": 50,
+      "totalTokenCount": 650
+    },
+    "modelVersion": "gemini-3.5-flash",
+    "responseId": "fixture-response"
+  },
+  "expected": {
+    "text": "Profound leads for agencies.\nPeec AI is second.",
+    "model_version": "models/gemini-3.5-flash",
+    "input_tokens": 150,
+    "output_tokens": 500,
+    "citations": [
+      "https://example.com",
+      "https://example.com/lists/best-aeo",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbC3"
+    ],
+    "search_count": 2,
+    "search_queries": [
+      "best AEO platform for agencies",
+      "AEO tools comparison"
+    ],
+    "vendor_cost_usd": null,
+    "cost_usd": "0.032725"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "description": "OpenAI Responses API: searched, then ran out of output budget with no text",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "resp_fixture",
+    "object": "response",
+    "created_at": 1761004800,
+    "model": "gpt-5.5-2026-04-23",
+    "status": "incomplete",
+    "incomplete_details": {
+      "reason": "max_output_tokens"
+    },
+    "error": null,
+    "output": [
+      {
+        "type": "reasoning",
+        "id": "rs_1",
+        "summary": []
+      },
+      {
+        "type": "web_search_call",
+        "id": "ws_1",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "query": "best AEO platform for agencies"
+        }
+      }
+    ],
+    "usage": {
+      "input_tokens": 900,
+      "output_tokens": 8192,
+      "total_tokens": 9092
+    }
+  },
+  "expected": {
+    "error_type": "empty",
+    "status_code": null,
+    "retry_after": null,
+    "cost_usd": "0.260260"
+  }
+}

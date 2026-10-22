@@ -1,0 +1,29 @@
+{
+  "description": "Gemini: a key the API does not accept (Google answers 400 API_KEY_INVALID)",
+  "status": 400,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "error": {
+      "code": 400,
+      "message": "API key not valid. Please pass a valid API key.",
+      "status": "INVALID_ARGUMENT",
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+          "reason": "API_KEY_INVALID",
+          "metadata": {
+            "service": "generativelanguage.googleapis.com"
+          }
+        }
+      ]
+    }
+  },
+  "expected": {
+    "error_type": "auth",
+    "status_code": 400,
+    "retry_after": null,
+    "cost_usd": "0.000000"
+  }
+}

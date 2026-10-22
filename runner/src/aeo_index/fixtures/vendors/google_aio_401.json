@@ -1,0 +1,22 @@
+{
+  "description": "DataForSEO: login or password not accepted",
+  "status": 401,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource.",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+    "tasks_error": 0,
+    "tasks": null
+  },
+  "expected": {
+    "error_type": "auth",
+    "status_code": 401,
+    "retry_after": null,
+    "cost_usd": "0.000000"
+  }
+}

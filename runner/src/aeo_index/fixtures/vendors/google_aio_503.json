@@ -1,0 +1,22 @@
+{
+  "description": "DataForSEO: service unavailable",
+  "status": 503,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "status_code": 50301,
+    "status_message": "Service temporarily unavailable.",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+    "tasks_error": 0,
+    "tasks": null
+  },
+  "expected": {
+    "error_type": "server",
+    "status_code": 503,
+    "retry_after": null,
+    "cost_usd": "0.000000"
+  }
+}

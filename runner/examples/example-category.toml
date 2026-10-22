@@ -1,0 +1,20 @@
+# An example question file for your own category.
+# Run it with: aeo-index run --questions examples/example-category.toml
+# Check it first with: aeo-index questions --questions examples/example-category.toml
+
+id = "crm-for-agencies-v1"
+subject = "CRM software for marketing agencies"
+purpose = "running a marketing agency's client relationships"
+generic_example = "a CRM tool"
+exclude = ["ChatGPT", "Claude", "Perplexity", "Gemini", "Grok"]
+brand = "Acme CRM"
+brand_aliases = ["Acme", "acmecrm.com"]
+brand_domain = "acmecrm.com"
+
+[aliases]            # optional: more spellings to fold, canonical = [spellings]
+"Zed CRM" = ["Zed", "zedcrm.io"]
+
+[[question]]
+key = "q01"
+text = "What is the best CRM for a small marketing agency?"
+experimental = false

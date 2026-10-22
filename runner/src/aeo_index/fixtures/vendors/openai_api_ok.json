@@ -1,0 +1,39 @@
+{
+  "description": "OpenAI Chat Completions, gpt-5.5, a plain answer",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "chatcmpl-fixture",
+    "object": "chat.completion",
+    "created": 1761004800,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "For marketing agencies, Profound and Peec AI are the names most lists start with."
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 24,
+      "completion_tokens": 640,
+      "total_tokens": 664
+    }
+  },
+  "expected": {
+    "text": "For marketing agencies, Profound and Peec AI are the names most lists start with.",
+    "model_version": "gpt-5.5-2026-04-23",
+    "input_tokens": 24,
+    "output_tokens": 640,
+    "citations": null,
+    "search_count": null,
+    "search_queries": null,
+    "vendor_cost_usd": null,
+    "cost_usd": "0.019320"
+  }
+}

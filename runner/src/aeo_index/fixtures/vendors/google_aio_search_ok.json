@@ -1,0 +1,132 @@
+{
+  "description": "DataForSEO live/advanced SERP with an AI Overview; cost from the task",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.1204 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10211452-1535-0066-0000-fixture00001",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "3.0110 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "language_code": "en",
+          "location_code": 2840,
+          "device": "desktop",
+          "depth": 10,
+          "load_async_ai_overview": true
+        },
+        "result": [
+          {
+            "keyword": "best AEO platform for agencies",
+            "type": "organic",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=best+AEO+platform+for+agencies",
+            "item_types": [
+              "ai_overview",
+              "organic"
+            ],
+            "items_count": 2,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "asynchronous_ai_overview": false,
+                "markdown": "Profound and Peec AI are the AEO platforms agencies use most.",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "title": null,
+                    "text": "Profound and Peec AI are the AEO platforms agencies use most.",
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "source": "Example",
+                        "domain": "example.com",
+                        "url": "https://example.com/lists/best-aeo",
+                        "title": "Best AEO tools",
+                        "text": "..."
+                      }
+                    ]
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "source": "Example",
+                    "domain": "example.com",
+                    "url": "https://example.com/reviews/aeo-tools",
+                    "title": "AEO tools reviewed",
+                    "text": "..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "source": "Google",
+                    "domain": "google.com",
+                    "url": "https://google.com/goto?url=CAESOPAQUETOKEN",
+                    "title": "redirect",
+                    "text": "..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "source": "Example",
+                    "domain": "example.com",
+                    "url": "https://example.com/reviews/aeo-tools",
+                    "title": "duplicate",
+                    "text": "..."
+                  }
+                ]
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "domain": "sextantaeo.com",
+                "url": "https://sextantaeo.com/research",
+                "title": "AEO research"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "text": "Profound and Peec AI are the AEO platforms agencies use most.",
+    "model_version": "google-ai-overview",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "citations": [
+      "https://example.com/reviews/aeo-tools",
+      "https://example.com/lists/best-aeo"
+    ],
+    "search_count": null,
+    "search_queries": null,
+    "vendor_cost_usd": "0.002000",
+    "cost_usd": "0.002000"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "description": "DataForSEO SERP where Google showed no AI Overview; still billed",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.1204 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10211452-1535-0066-0000-fixture00001",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "3.0110 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "language_code": "en",
+          "location_code": 2840,
+          "device": "desktop",
+          "depth": 10,
+          "load_async_ai_overview": true
+        },
+        "result": [
+          {
+            "keyword": "best AEO platform for agencies",
+            "type": "organic",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=best+AEO+platform+for+agencies",
+            "item_types": [
+              "organic"
+            ],
+            "items_count": 1,
+            "items": [
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "domain": "sextantaeo.com",
+                "url": "https://sextantaeo.com/research",
+                "title": "AEO research"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "error_type": "empty",
+    "status_code": null,
+    "retry_after": null,
+    "cost_usd": "0.002000"
+  }
+}

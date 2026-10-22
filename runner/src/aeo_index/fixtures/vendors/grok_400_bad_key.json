@@ -1,0 +1,17 @@
+{
+  "description": "xAI: a key the API does not accept (xAI answers 400 invalid argument)",
+  "status": 400,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "code": "Client specified an invalid argument",
+    "error": "Incorrect API key provided: xa***yz."
+  },
+  "expected": {
+    "error_type": "auth",
+    "status_code": 400,
+    "retry_after": null,
+    "cost_usd": "0.000000"
+  }
+}

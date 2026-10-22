@@ -1,0 +1,31 @@
+{
+  "description": "xAI Responses API: incomplete, no text; billed",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "resp_fixture",
+    "object": "response",
+    "created_at": 1761004800,
+    "model": "grok-4.3",
+    "status": "incomplete",
+    "incomplete_details": {
+      "reason": "max_output_tokens"
+    },
+    "error": null,
+    "output": [],
+    "usage": {
+      "input_tokens": 800,
+      "output_tokens": 8192,
+      "num_server_side_tools_used": 1,
+      "cost_in_usd_ticks": 41000000
+    }
+  },
+  "expected": {
+    "error_type": "empty",
+    "status_code": null,
+    "retry_after": null,
+    "cost_usd": "0.004100"
+  }
+}

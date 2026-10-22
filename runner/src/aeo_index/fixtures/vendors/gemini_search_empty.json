@@ -1,0 +1,39 @@
+{
+  "description": "Gemini grounded: searched, then MAX_TOKENS with no text",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": []
+        },
+        "finishReason": "MAX_TOKENS",
+        "index": 0,
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "best AEO platform for agencies"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 100,
+      "candidatesTokenCount": 0,
+      "thoughtsTokenCount": 8192,
+      "toolUsePromptTokenCount": 40,
+      "totalTokenCount": 8332
+    },
+    "modelVersion": "gemini-3.5-flash",
+    "responseId": "fixture-response"
+  },
+  "expected": {
+    "error_type": "empty",
+    "status_code": null,
+    "retry_after": null,
+    "cost_usd": "0.087938"
+  }
+}

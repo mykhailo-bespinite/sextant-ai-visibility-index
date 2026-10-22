@@ -1,0 +1,21 @@
+{
+  "description": "OpenAI: overloaded",
+  "status": 503,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "error": {
+      "message": "The engine is currently overloaded, please try again later.",
+      "type": "server_error",
+      "param": null,
+      "code": null
+    }
+  },
+  "expected": {
+    "error_type": "server",
+    "status_code": 503,
+    "retry_after": null,
+    "cost_usd": "0.000000"
+  }
+}

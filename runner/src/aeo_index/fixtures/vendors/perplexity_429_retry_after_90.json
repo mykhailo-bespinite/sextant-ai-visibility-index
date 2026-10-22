@@ -1,0 +1,21 @@
+{
+  "description": "Perplexity: rate limited, asks for 90 seconds",
+  "status": 429,
+  "headers": {
+    "content-type": "application/json",
+    "retry-after": "90"
+  },
+  "body": {
+    "error": {
+      "message": "Rate limit exceeded.",
+      "type": "rate_limit_exceeded",
+      "code": 429
+    }
+  },
+  "expected": {
+    "error_type": "rate_limited",
+    "status_code": 429,
+    "retry_after": 90.0,
+    "cost_usd": "0.000000"
+  }
+}

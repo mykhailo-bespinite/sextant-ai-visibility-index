@@ -1,0 +1,21 @@
+{
+  "description": "Anthropic: rate limited, asks for 90 seconds",
+  "status": 429,
+  "headers": {
+    "content-type": "application/json",
+    "retry-after": "90"
+  },
+  "body": {
+    "type": "error",
+    "error": {
+      "type": "rate_limit_error",
+      "message": "Number of requests has exceeded your rate limit."
+    }
+  },
+  "expected": {
+    "error_type": "rate_limited",
+    "status_code": 429,
+    "retry_after": 90.0,
+    "cost_usd": "0.000000"
+  }
+}

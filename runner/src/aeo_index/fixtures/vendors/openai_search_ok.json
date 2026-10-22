@@ -1,0 +1,115 @@
+{
+  "description": "OpenAI Responses API with web_search: two billed searches, one free open_page",
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "resp_fixture",
+    "object": "response",
+    "created_at": 1761004800,
+    "model": "gpt-5.5-2026-04-23",
+    "status": "completed",
+    "incomplete_details": null,
+    "error": null,
+    "output": [
+      {
+        "type": "reasoning",
+        "id": "rs_1",
+        "summary": []
+      },
+      {
+        "type": "web_search_call",
+        "id": "ws_1",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "query": "best AEO platform for agencies"
+        }
+      },
+      {
+        "type": "web_search_call",
+        "id": "ws_2",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://example.com/reviews/aeo-tools"
+        }
+      },
+      {
+        "type": "web_search_call",
+        "id": "ws_3",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "query": "AEO tools comparison"
+        }
+      },
+      {
+        "type": "message",
+        "id": "msg_fixture",
+        "role": "assistant",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Profound leads for agencies.",
+            "annotations": [
+              {
+                "type": "url_citation",
+                "url": "https://example.com/reviews/aeo-tools",
+                "title": "AEO tools reviewed",
+                "start_index": 0,
+                "end_index": 8
+              },
+              {
+                "type": "url_citation",
+                "url": "https://example.com/lists/best-aeo",
+                "title": "Best AEO tools",
+                "start_index": 9,
+                "end_index": 14
+              },
+              {
+                "type": "url_citation",
+                "url": "https://example.com/reviews/aeo-tools",
+                "title": "duplicate",
+                "start_index": 15,
+                "end_index": 27
+              }
+            ]
+          },
+          {
+            "type": "output_text",
+            "text": " Peec AI is second.",
+            "annotations": []
+          }
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 1200,
+      "output_tokens": 400,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 1600
+    }
+  },
+  "expected": {
+    "text": "Profound leads for agencies. Peec AI is second.",
+    "model_version": "gpt-5.5-2026-04-23",
+    "input_tokens": 1200,
+    "output_tokens": 400,
+    "citations": [
+      "https://example.com/reviews/aeo-tools",
+      "https://example.com/lists/best-aeo"
+    ],
+    "search_count": 2,
+    "search_queries": [
+      "best AEO platform for agencies",
+      "AEO tools comparison"
+    ],
+    "vendor_cost_usd": null,
+    "cost_usd": "0.038000"
+  }
+}

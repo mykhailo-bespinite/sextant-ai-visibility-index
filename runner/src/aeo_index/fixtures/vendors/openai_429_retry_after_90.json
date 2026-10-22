@@ -1,0 +1,22 @@
+{
+  "description": "OpenAI: rate limited, asks for 90 seconds",
+  "status": 429,
+  "headers": {
+    "content-type": "application/json",
+    "retry-after": "90"
+  },
+  "body": {
+    "error": {
+      "message": "Rate limit reached for requests per min.",
+      "type": "requests",
+      "param": null,
+      "code": "rate_limit_exceeded"
+    }
+  },
+  "expected": {
+    "error_type": "rate_limited",
+    "status_code": 429,
+    "retry_after": 90.0,
+    "cost_usd": "0.000000"
+  }
+}

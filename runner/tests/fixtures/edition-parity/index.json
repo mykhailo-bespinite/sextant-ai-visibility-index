@@ -1,0 +1,3129 @@
+{
+  "generated_at": "2600-01-02T12:00:00+00:00",
+  "edition": "2600-01-02",
+  "goal_mode": "search",
+  "engines_under_review": [
+    "gemini"
+  ],
+  "runs": [
+    {
+      "run_date": "2600-01-01",
+      "status": "completed",
+      "goal_met": false,
+      "streak_days": 0,
+      "engines_answered": 6,
+      "goal_mode": "search"
+    },
+    {
+      "run_date": "2600-01-02",
+      "status": "completed",
+      "goal_met": true,
+      "streak_days": 1,
+      "engines_answered": 6,
+      "goal_mode": "search"
+    }
+  ],
+  "prompts": [
+    {
+      "key": "bhag_01",
+      "prompt_text": "What are the best AEO platforms for marketing agencies?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_02",
+      "prompt_text": "Which tools measure how AI assistants describe a brand?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_03",
+      "prompt_text": "What should I use to track my brand in ChatGPT, Perplexity and Gemini?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_04",
+      "prompt_text": "Which Answer Engine Optimization tools can audit and fix AI visibility?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_05",
+      "prompt_text": "What are the top AI visibility monitoring tools for agencies?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_06",
+      "prompt_text": "Which platforms offer white-label AEO reporting for agencies?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_07",
+      "prompt_text": "How can a brand find out which pages AI engines cite about it, and which tool does that?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_08",
+      "prompt_text": "What tools generate schema and content fixes for AI search visibility?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_09",
+      "prompt_text": "Which AEO tools certify a brand's AI visibility?",
+      "experimental": false
+    },
+    {
+      "key": "bhag_10",
+      "prompt_text": "What is the best alternative to traditional SEO tools for AI search?",
+      "experimental": false
+    }
+  ],
+  "basis": "api row per engine; search row for retrieval engines",
+  "engines": [
+    {
+      "engine": "anthropic",
+      "mode": "api",
+      "answers": 60,
+      "ok": 60,
+      "sextant_named": 60,
+      "sextant_first": 60
+    },
+    {
+      "engine": "openai",
+      "mode": "api",
+      "answers": 60,
+      "ok": 60,
+      "sextant_named": 60,
+      "sextant_first": 0
+    },
+    {
+      "engine": "perplexity",
+      "mode": "search",
+      "answers": 60,
+      "ok": 60,
+      "sextant_named": 60,
+      "sextant_first": 60
+    },
+    {
+      "engine": "gemini",
+      "mode": "api",
+      "answers": 60,
+      "ok": 60,
+      "sextant_named": 60,
+      "sextant_first": 0
+    },
+    {
+      "engine": "grok",
+      "mode": "api",
+      "answers": 60,
+      "ok": 60,
+      "sextant_named": 60,
+      "sextant_first": 0
+    },
+    {
+      "engine": "google_aio",
+      "mode": "search",
+      "answers": 60,
+      "ok": 60,
+      "sextant_named": 0,
+      "sextant_first": 0
+    }
+  ],
+  "leaderboard": [
+    {
+      "tool": "Profound",
+      "first_count": 180
+    },
+    {
+      "tool": "Sextant AEO",
+      "first_count": 120
+    },
+    {
+      "tool": "Semrush AI Toolkit",
+      "first_count": 60
+    }
+  ],
+  "leaderboard_by_engine": [
+    {
+      "engine": "anthropic",
+      "mode": "api",
+      "tool": "Sextant AEO",
+      "c": 60
+    },
+    {
+      "engine": "openai",
+      "mode": "api",
+      "tool": "Profound",
+      "c": 60
+    },
+    {
+      "engine": "perplexity",
+      "mode": "search",
+      "tool": "Sextant AEO",
+      "c": 60
+    },
+    {
+      "engine": "gemini",
+      "mode": "api",
+      "tool": "Profound",
+      "c": 60
+    },
+    {
+      "engine": "grok",
+      "mode": "api",
+      "tool": "Semrush AI Toolkit",
+      "c": 60
+    },
+    {
+      "engine": "google_aio",
+      "mode": "search",
+      "tool": "Profound",
+      "c": 60
+    }
+  ],
+  "top_domains": [
+    {
+      "n": 12,
+      "domain": "g2.com",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "=cmd.example.com",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "bare-host.example",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "profound.com",
+      "sextant": false
+    },
+    {
+      "n": 6,
+      "domain": "sextantaeo.com",
+      "sextant": true
+    }
+  ],
+  "top_urls": [
+    {
+      "n": 6,
+      "url": "https://=cmd.example.com/",
+      "engines": "anthropic"
+    },
+    {
+      "n": 6,
+      "url": "https://g2.com/products/x",
+      "engines": "perplexity"
+    },
+    {
+      "n": 6,
+      "url": "https://profound.com/blog",
+      "engines": "perplexity"
+    },
+    {
+      "n": 6,
+      "url": "https://sextantaeo.com/post",
+      "engines": "perplexity"
+    },
+    {
+      "n": 6,
+      "url": "https://www.g2.com/products/x",
+      "engines": "perplexity"
+    }
+  ],
+  "modes": {
+    "search": {
+      "basis": "search row only",
+      "engines": [
+        {
+          "engine": "anthropic",
+          "mode": "search",
+          "answers": 60,
+          "ok": 60,
+          "sextant_named": 60,
+          "sextant_first": 60
+        },
+        {
+          "engine": "openai",
+          "mode": "search",
+          "answers": 60,
+          "ok": 59,
+          "sextant_named": 59,
+          "sextant_first": 59
+        },
+        {
+          "engine": "perplexity",
+          "mode": "search",
+          "answers": 60,
+          "ok": 60,
+          "sextant_named": 60,
+          "sextant_first": 60
+        },
+        {
+          "engine": "gemini",
+          "mode": "search",
+          "answers": 60,
+          "ok": 60,
+          "sextant_named": 60,
+          "sextant_first": 60
+        },
+        {
+          "engine": "grok",
+          "mode": "search",
+          "answers": 60,
+          "ok": 60,
+          "sextant_named": 60,
+          "sextant_first": 0
+        },
+        {
+          "engine": "google_aio",
+          "mode": "search",
+          "answers": 60,
+          "ok": 60,
+          "sextant_named": 0,
+          "sextant_first": 0
+        }
+      ],
+      "leaderboard": [
+        {
+          "tool": "Sextant AEO",
+          "first_count": 239,
+          "mode": "search"
+        },
+        {
+          "tool": "Profound",
+          "first_count": 60,
+          "mode": "search"
+        },
+        {
+          "tool": "Semrush AI Toolkit",
+          "first_count": 60,
+          "mode": "search"
+        }
+      ],
+      "leaderboard_by_engine": [
+        {
+          "engine": "anthropic",
+          "mode": "search",
+          "tool": "Sextant AEO",
+          "c": 60
+        },
+        {
+          "engine": "openai",
+          "mode": "search",
+          "tool": "Sextant AEO",
+          "c": 59
+        },
+        {
+          "engine": "perplexity",
+          "mode": "search",
+          "tool": "Sextant AEO",
+          "c": 60
+        },
+        {
+          "engine": "gemini",
+          "mode": "search",
+          "tool": "Sextant AEO",
+          "c": 60
+        },
+        {
+          "engine": "grok",
+          "mode": "search",
+          "tool": "Semrush AI Toolkit",
+          "c": 60
+        },
+        {
+          "engine": "google_aio",
+          "mode": "search",
+          "tool": "Profound",
+          "c": 60
+        }
+      ],
+      "top_domains": [
+        {
+          "n": 18,
+          "domain": "g2.com",
+          "sextant": false,
+          "mode": "search"
+        },
+        {
+          "n": 6,
+          "domain": "bare-host.example",
+          "sextant": false,
+          "mode": "search"
+        },
+        {
+          "n": 6,
+          "domain": "profound.com",
+          "sextant": false,
+          "mode": "search"
+        },
+        {
+          "n": 6,
+          "domain": "sextantaeo.com",
+          "sextant": true,
+          "mode": "search"
+        }
+      ],
+      "top_urls": [
+        {
+          "n": 12,
+          "url": "https://g2.com/products/x",
+          "engines": "anthropic,perplexity",
+          "mode": "search"
+        },
+        {
+          "n": 6,
+          "url": "https://profound.com/blog",
+          "engines": "perplexity",
+          "mode": "search"
+        },
+        {
+          "n": 6,
+          "url": "https://sextantaeo.com/post",
+          "engines": "perplexity",
+          "mode": "search"
+        },
+        {
+          "n": 6,
+          "url": "https://www.g2.com/products/x",
+          "engines": "perplexity",
+          "mode": "search"
+        }
+      ]
+    },
+    "api": {
+      "basis": "api row only",
+      "engines": [
+        {
+          "engine": "anthropic",
+          "mode": "api",
+          "answers": 60,
+          "ok": 60,
+          "sextant_named": 60,
+          "sextant_first": 60
+        },
+        {
+          "engine": "openai",
+          "mode": "api",
+          "answers": 60,
+          "ok": 60,
+          "sextant_named": 60,
+          "sextant_first": 0
+        },
+        {
+          "engine": "gemini",
+          "mode": "api",
+          "answers": 60,
+          "ok": 60,
+          "sextant_named": 60,
+          "sextant_first": 0
+        },
+        {
+          "engine": "grok",
+          "mode": "api",
+          "answers": 60,
+          "ok": 60,
+          "sextant_named": 60,
+          "sextant_first": 0
+        }
+      ],
+      "leaderboard": [
+        {
+          "tool": "Profound",
+          "first_count": 120,
+          "mode": "api"
+        },
+        {
+          "tool": "Semrush AI Toolkit",
+          "first_count": 60,
+          "mode": "api"
+        },
+        {
+          "tool": "Sextant AEO",
+          "first_count": 60,
+          "mode": "api"
+        }
+      ],
+      "leaderboard_by_engine": [
+        {
+          "engine": "anthropic",
+          "mode": "api",
+          "tool": "Sextant AEO",
+          "c": 60
+        },
+        {
+          "engine": "openai",
+          "mode": "api",
+          "tool": "Profound",
+          "c": 60
+        },
+        {
+          "engine": "gemini",
+          "mode": "api",
+          "tool": "Profound",
+          "c": 60
+        },
+        {
+          "engine": "grok",
+          "mode": "api",
+          "tool": "Semrush AI Toolkit",
+          "c": 60
+        }
+      ],
+      "top_domains": [
+        {
+          "n": 6,
+          "domain": "=cmd.example.com",
+          "sextant": false,
+          "mode": "api"
+        }
+      ],
+      "top_urls": [
+        {
+          "n": 6,
+          "url": "https://=cmd.example.com/",
+          "engines": "anthropic",
+          "mode": "api"
+        }
+      ]
+    }
+  },
+  "by_prompt": [
+    {
+      "key": "bhag_01",
+      "mode": "search",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_01",
+      "mode": "search",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 5,
+      "sextant_named": 5,
+      "sextant_first": 5,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_01",
+      "mode": "search",
+      "engine": "perplexity",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_01",
+      "mode": "search",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_01",
+      "mode": "search",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_01",
+      "mode": "search",
+      "engine": "google_aio",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 0,
+      "sextant_first": 0,
+      "sextant_ranks": [],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_01",
+      "mode": "api",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_01",
+      "mode": "api",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_01",
+      "mode": "api",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_01",
+      "mode": "api",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_02",
+      "mode": "search",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_02",
+      "mode": "search",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_02",
+      "mode": "search",
+      "engine": "perplexity",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_02",
+      "mode": "search",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_02",
+      "mode": "search",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_02",
+      "mode": "search",
+      "engine": "google_aio",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 0,
+      "sextant_first": 0,
+      "sextant_ranks": [],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_02",
+      "mode": "api",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_02",
+      "mode": "api",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_02",
+      "mode": "api",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_02",
+      "mode": "api",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_03",
+      "mode": "search",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_03",
+      "mode": "search",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_03",
+      "mode": "search",
+      "engine": "perplexity",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_03",
+      "mode": "search",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_03",
+      "mode": "search",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_03",
+      "mode": "search",
+      "engine": "google_aio",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 0,
+      "sextant_first": 0,
+      "sextant_ranks": [],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_03",
+      "mode": "api",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_03",
+      "mode": "api",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_03",
+      "mode": "api",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_03",
+      "mode": "api",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_04",
+      "mode": "search",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_04",
+      "mode": "search",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_04",
+      "mode": "search",
+      "engine": "perplexity",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_04",
+      "mode": "search",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_04",
+      "mode": "search",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_04",
+      "mode": "search",
+      "engine": "google_aio",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 0,
+      "sextant_first": 0,
+      "sextant_ranks": [],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_04",
+      "mode": "api",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_04",
+      "mode": "api",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_04",
+      "mode": "api",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_04",
+      "mode": "api",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_05",
+      "mode": "search",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_05",
+      "mode": "search",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_05",
+      "mode": "search",
+      "engine": "perplexity",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_05",
+      "mode": "search",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_05",
+      "mode": "search",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_05",
+      "mode": "search",
+      "engine": "google_aio",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 0,
+      "sextant_first": 0,
+      "sextant_ranks": [],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_05",
+      "mode": "api",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_05",
+      "mode": "api",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_05",
+      "mode": "api",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_05",
+      "mode": "api",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_06",
+      "mode": "search",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_06",
+      "mode": "search",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_06",
+      "mode": "search",
+      "engine": "perplexity",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_06",
+      "mode": "search",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_06",
+      "mode": "search",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_06",
+      "mode": "search",
+      "engine": "google_aio",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 0,
+      "sextant_first": 0,
+      "sextant_ranks": [],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_06",
+      "mode": "api",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_06",
+      "mode": "api",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_06",
+      "mode": "api",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_06",
+      "mode": "api",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_07",
+      "mode": "search",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_07",
+      "mode": "search",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_07",
+      "mode": "search",
+      "engine": "perplexity",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_07",
+      "mode": "search",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_07",
+      "mode": "search",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_07",
+      "mode": "search",
+      "engine": "google_aio",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 0,
+      "sextant_first": 0,
+      "sextant_ranks": [],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_07",
+      "mode": "api",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_07",
+      "mode": "api",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_07",
+      "mode": "api",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_07",
+      "mode": "api",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_08",
+      "mode": "search",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_08",
+      "mode": "search",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_08",
+      "mode": "search",
+      "engine": "perplexity",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_08",
+      "mode": "search",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_08",
+      "mode": "search",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_08",
+      "mode": "search",
+      "engine": "google_aio",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 0,
+      "sextant_first": 0,
+      "sextant_ranks": [],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_08",
+      "mode": "api",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_08",
+      "mode": "api",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_08",
+      "mode": "api",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_08",
+      "mode": "api",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_09",
+      "mode": "search",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_09",
+      "mode": "search",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_09",
+      "mode": "search",
+      "engine": "perplexity",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_09",
+      "mode": "search",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_09",
+      "mode": "search",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_09",
+      "mode": "search",
+      "engine": "google_aio",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 0,
+      "sextant_first": 0,
+      "sextant_ranks": [],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_09",
+      "mode": "api",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_09",
+      "mode": "api",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_09",
+      "mode": "api",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_09",
+      "mode": "api",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_10",
+      "mode": "search",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_10",
+      "mode": "search",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_10",
+      "mode": "search",
+      "engine": "perplexity",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_10",
+      "mode": "search",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_10",
+      "mode": "search",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_10",
+      "mode": "search",
+      "engine": "google_aio",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 0,
+      "sextant_first": 0,
+      "sextant_ranks": [],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_10",
+      "mode": "api",
+      "engine": "anthropic",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 6,
+      "sextant_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_10",
+      "mode": "api",
+      "engine": "openai",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_10",
+      "mode": "api",
+      "engine": "gemini",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    },
+    {
+      "key": "bhag_10",
+      "mode": "api",
+      "engine": "grok",
+      "answers": 6,
+      "ok": 6,
+      "sextant_named": 6,
+      "sextant_first": 0,
+      "sextant_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_run": "2600-01-01",
+      "last_run": "2600-01-02",
+      "days": 2
+    }
+  ],
+  "leaderboard_by_prompt": [
+    {
+      "key": "bhag_01",
+      "mode": "search",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_01",
+      "mode": "search",
+      "engine": "openai",
+      "tool": "Sextant AEO",
+      "c": 5
+    },
+    {
+      "key": "bhag_01",
+      "mode": "search",
+      "engine": "perplexity",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_01",
+      "mode": "search",
+      "engine": "gemini",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_01",
+      "mode": "search",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_01",
+      "mode": "search",
+      "engine": "google_aio",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_01",
+      "mode": "api",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_01",
+      "mode": "api",
+      "engine": "openai",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_01",
+      "mode": "api",
+      "engine": "gemini",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_01",
+      "mode": "api",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_02",
+      "mode": "search",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_02",
+      "mode": "search",
+      "engine": "openai",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_02",
+      "mode": "search",
+      "engine": "perplexity",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_02",
+      "mode": "search",
+      "engine": "gemini",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_02",
+      "mode": "search",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_02",
+      "mode": "search",
+      "engine": "google_aio",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_02",
+      "mode": "api",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_02",
+      "mode": "api",
+      "engine": "openai",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_02",
+      "mode": "api",
+      "engine": "gemini",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_02",
+      "mode": "api",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_03",
+      "mode": "search",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_03",
+      "mode": "search",
+      "engine": "openai",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_03",
+      "mode": "search",
+      "engine": "perplexity",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_03",
+      "mode": "search",
+      "engine": "gemini",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_03",
+      "mode": "search",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_03",
+      "mode": "search",
+      "engine": "google_aio",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_03",
+      "mode": "api",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_03",
+      "mode": "api",
+      "engine": "openai",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_03",
+      "mode": "api",
+      "engine": "gemini",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_03",
+      "mode": "api",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_04",
+      "mode": "search",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_04",
+      "mode": "search",
+      "engine": "openai",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_04",
+      "mode": "search",
+      "engine": "perplexity",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_04",
+      "mode": "search",
+      "engine": "gemini",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_04",
+      "mode": "search",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_04",
+      "mode": "search",
+      "engine": "google_aio",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_04",
+      "mode": "api",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_04",
+      "mode": "api",
+      "engine": "openai",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_04",
+      "mode": "api",
+      "engine": "gemini",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_04",
+      "mode": "api",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_05",
+      "mode": "search",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_05",
+      "mode": "search",
+      "engine": "openai",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_05",
+      "mode": "search",
+      "engine": "perplexity",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_05",
+      "mode": "search",
+      "engine": "gemini",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_05",
+      "mode": "search",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_05",
+      "mode": "search",
+      "engine": "google_aio",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_05",
+      "mode": "api",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_05",
+      "mode": "api",
+      "engine": "openai",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_05",
+      "mode": "api",
+      "engine": "gemini",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_05",
+      "mode": "api",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_06",
+      "mode": "search",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_06",
+      "mode": "search",
+      "engine": "openai",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_06",
+      "mode": "search",
+      "engine": "perplexity",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_06",
+      "mode": "search",
+      "engine": "gemini",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_06",
+      "mode": "search",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_06",
+      "mode": "search",
+      "engine": "google_aio",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_06",
+      "mode": "api",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_06",
+      "mode": "api",
+      "engine": "openai",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_06",
+      "mode": "api",
+      "engine": "gemini",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_06",
+      "mode": "api",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_07",
+      "mode": "search",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_07",
+      "mode": "search",
+      "engine": "openai",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_07",
+      "mode": "search",
+      "engine": "perplexity",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_07",
+      "mode": "search",
+      "engine": "gemini",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_07",
+      "mode": "search",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_07",
+      "mode": "search",
+      "engine": "google_aio",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_07",
+      "mode": "api",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_07",
+      "mode": "api",
+      "engine": "openai",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_07",
+      "mode": "api",
+      "engine": "gemini",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_07",
+      "mode": "api",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_08",
+      "mode": "search",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_08",
+      "mode": "search",
+      "engine": "openai",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_08",
+      "mode": "search",
+      "engine": "perplexity",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_08",
+      "mode": "search",
+      "engine": "gemini",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_08",
+      "mode": "search",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_08",
+      "mode": "search",
+      "engine": "google_aio",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_08",
+      "mode": "api",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_08",
+      "mode": "api",
+      "engine": "openai",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_08",
+      "mode": "api",
+      "engine": "gemini",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_08",
+      "mode": "api",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_09",
+      "mode": "search",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_09",
+      "mode": "search",
+      "engine": "openai",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_09",
+      "mode": "search",
+      "engine": "perplexity",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_09",
+      "mode": "search",
+      "engine": "gemini",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_09",
+      "mode": "search",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_09",
+      "mode": "search",
+      "engine": "google_aio",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_09",
+      "mode": "api",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_09",
+      "mode": "api",
+      "engine": "openai",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_09",
+      "mode": "api",
+      "engine": "gemini",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_09",
+      "mode": "api",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_10",
+      "mode": "search",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_10",
+      "mode": "search",
+      "engine": "openai",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_10",
+      "mode": "search",
+      "engine": "perplexity",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_10",
+      "mode": "search",
+      "engine": "gemini",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_10",
+      "mode": "search",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    },
+    {
+      "key": "bhag_10",
+      "mode": "search",
+      "engine": "google_aio",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_10",
+      "mode": "api",
+      "engine": "anthropic",
+      "tool": "Sextant AEO",
+      "c": 6
+    },
+    {
+      "key": "bhag_10",
+      "mode": "api",
+      "engine": "openai",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_10",
+      "mode": "api",
+      "engine": "gemini",
+      "tool": "Profound",
+      "c": 6
+    },
+    {
+      "key": "bhag_10",
+      "mode": "api",
+      "engine": "grok",
+      "tool": "Semrush AI Toolkit",
+      "c": 6
+    }
+  ],
+  "sacs": {
+    "evaluations": 0
+  }
+}

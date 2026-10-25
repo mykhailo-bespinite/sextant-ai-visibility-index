@@ -57,7 +57,7 @@ NAMED_DOMAINS = {
 
 # Hosts the documentation names: the repository, and the examples the judge's
 # docstring uses for host bounding.
-DOC_HOSTS = {"github.com", "type.googleapis.com", "acme.co", "acme.com", "notacme.co"}
+DOC_HOSTS = {"github.com", "type.googleapis.com", "acme.co", "acme.com", "notacme.co", "zenodo.org", "doi.org"}  # zenodo/doi: the DOI badge and cite line
 
 # The public repository slug, removed before the private terms are read, so
 # the owner's name in the repository URL is not a finding.

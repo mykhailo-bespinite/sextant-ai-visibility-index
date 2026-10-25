@@ -1,5 +1,7 @@
 # Sextant AI Visibility Index
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23645499.svg)](https://doi.org/10.5281/zenodo.23645499)
+
 Which AEO tools do the AI answer engines recommend when nobody names a company?
 
 Every day Sextant AEO (https://sextantaeo.com) asks six AI engines (ChatGPT, Claude, Gemini, Grok, Perplexity, Google AI Overviews) ten fixed, unbranded questions such as "Which AEO tools should I use?", three samples per engine per prompt, and records which tool each answer names first, every tool it names, and every page it cites. This repository publishes the dataset weekly, including the weeks in which Sextant itself scores zero.

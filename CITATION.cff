@@ -10,3 +10,11 @@ url: https://sextantaeo.com/research/ai-engines-aeo-tools
 license: CC-BY-4.0
 date-released: 2026-10-18
 version: 2026-10-18
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23645499
+    description: Concept DOI, always the latest edition
+  - type: doi
+    value: 10.5281/zenodo.23645500
+    description: Edition 2026-10-18
+doi: 10.5281/zenodo.23645499

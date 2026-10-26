@@ -32,7 +32,9 @@ The run prints its plan and the cost before the first call, then waits for `y`. 
 
 ## Data
 
-`data/YYYY-MM-DD/` holds one edition: `index.json` (full snapshot: runs, per-engine totals, prompts, leaderboard, leaderboard by engine, top cited domains and URLs), `leaderboard.csv`, `cited_domains.csv`, `prompts.csv`.
+`data/YYYY-MM-DD/` holds one edition: `index.json` (full snapshot: runs, per-engine totals, prompts, leaderboard, leaderboard by engine, top cited domains and URLs), `leaderboard.csv`, `cited_domains.csv`, `prompts.csv`. From edition 2026-10-25 it also holds `answers.jsonl`: one line per answer with the prompt key, engine, mode, sample, run date, status, the tools named in order, the first-named tool, Sextant AEO's rank when named, and the cited URLs. Answer text is not published.
+
+Edition 2026-10-25: 1,800 answers (20 to 25 October 2026; the 19 October run was lost to a deploy and holds no answers). With web search on, 1,080 answers from six engines: Profound named first in 287; Sextant AEO named in 24 and first in 8 (ChatGPT 6, Gemini 2; Grok named it in 14 answers, never first). From training knowledge, no web search, 720 answers from four engines: Profound named first in 446; Sextant AEO named in 0. The answers cited 9,149 pages; blog.hubspot.com was the most cited domain (130), then youtube.com (62) and semrush.com (61). The Gemini collector fix of 18 October is in force and no engine is under review.
 
 Edition 2026-10-18: 720 answers (14 to 17 October 2026). Profound named first in 233. Sextant AEO named in 0. Google AI Overviews was the only engine returning citations in this edition (977); Gemini's answers were truncated by our collector in this period and its counts are under review.
 

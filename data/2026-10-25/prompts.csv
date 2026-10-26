@@ -1,0 +1,101 @@
+key,prompt_text,experimental,mode,engine,answers,ok,sextant_named,sextant_first
+bhag_01,What are the best AEO platforms for marketing agencies?,False,search,anthropic,18,18,0,0
+bhag_01,What are the best AEO platforms for marketing agencies?,False,search,openai,18,18,0,0
+bhag_01,What are the best AEO platforms for marketing agencies?,False,search,perplexity,18,18,0,0
+bhag_01,What are the best AEO platforms for marketing agencies?,False,search,gemini,18,18,0,0
+bhag_01,What are the best AEO platforms for marketing agencies?,False,search,grok,18,18,0,0
+bhag_01,What are the best AEO platforms for marketing agencies?,False,search,google_aio,18,17,0,0
+bhag_01,What are the best AEO platforms for marketing agencies?,False,api,anthropic,18,18,0,0
+bhag_01,What are the best AEO platforms for marketing agencies?,False,api,openai,18,18,0,0
+bhag_01,What are the best AEO platforms for marketing agencies?,False,api,gemini,18,18,0,0
+bhag_01,What are the best AEO platforms for marketing agencies?,False,api,grok,18,18,0,0
+bhag_02,Which tools measure how AI assistants describe a brand?,False,search,anthropic,18,18,0,0
+bhag_02,Which tools measure how AI assistants describe a brand?,False,search,openai,18,18,0,0
+bhag_02,Which tools measure how AI assistants describe a brand?,False,search,perplexity,18,18,0,0
+bhag_02,Which tools measure how AI assistants describe a brand?,False,search,gemini,18,18,0,0
+bhag_02,Which tools measure how AI assistants describe a brand?,False,search,grok,18,18,0,0
+bhag_02,Which tools measure how AI assistants describe a brand?,False,search,google_aio,18,16,0,0
+bhag_02,Which tools measure how AI assistants describe a brand?,False,api,anthropic,18,18,0,0
+bhag_02,Which tools measure how AI assistants describe a brand?,False,api,openai,18,18,0,0
+bhag_02,Which tools measure how AI assistants describe a brand?,False,api,gemini,18,18,0,0
+bhag_02,Which tools measure how AI assistants describe a brand?,False,api,grok,18,18,0,0
+bhag_03,"What should I use to track my brand in ChatGPT, Perplexity and Gemini?",False,search,anthropic,18,18,0,0
+bhag_03,"What should I use to track my brand in ChatGPT, Perplexity and Gemini?",False,search,openai,18,18,0,0
+bhag_03,"What should I use to track my brand in ChatGPT, Perplexity and Gemini?",False,search,perplexity,18,18,0,0
+bhag_03,"What should I use to track my brand in ChatGPT, Perplexity and Gemini?",False,search,gemini,18,18,0,0
+bhag_03,"What should I use to track my brand in ChatGPT, Perplexity and Gemini?",False,search,grok,18,18,0,0
+bhag_03,"What should I use to track my brand in ChatGPT, Perplexity and Gemini?",False,search,google_aio,18,18,0,0
+bhag_03,"What should I use to track my brand in ChatGPT, Perplexity and Gemini?",False,api,anthropic,18,18,0,0
+bhag_03,"What should I use to track my brand in ChatGPT, Perplexity and Gemini?",False,api,openai,18,18,0,0
+bhag_03,"What should I use to track my brand in ChatGPT, Perplexity and Gemini?",False,api,gemini,18,18,0,0
+bhag_03,"What should I use to track my brand in ChatGPT, Perplexity and Gemini?",False,api,grok,18,18,0,0
+bhag_04,Which Answer Engine Optimization tools can audit and fix AI visibility?,False,search,anthropic,18,18,0,0
+bhag_04,Which Answer Engine Optimization tools can audit and fix AI visibility?,False,search,openai,18,18,0,0
+bhag_04,Which Answer Engine Optimization tools can audit and fix AI visibility?,False,search,perplexity,18,18,0,0
+bhag_04,Which Answer Engine Optimization tools can audit and fix AI visibility?,False,search,gemini,18,18,0,0
+bhag_04,Which Answer Engine Optimization tools can audit and fix AI visibility?,False,search,grok,18,18,0,0
+bhag_04,Which Answer Engine Optimization tools can audit and fix AI visibility?,False,search,google_aio,18,16,0,0
+bhag_04,Which Answer Engine Optimization tools can audit and fix AI visibility?,False,api,anthropic,18,18,0,0
+bhag_04,Which Answer Engine Optimization tools can audit and fix AI visibility?,False,api,openai,18,18,0,0
+bhag_04,Which Answer Engine Optimization tools can audit and fix AI visibility?,False,api,gemini,18,18,0,0
+bhag_04,Which Answer Engine Optimization tools can audit and fix AI visibility?,False,api,grok,18,18,0,0
+bhag_05,What are the top AI visibility monitoring tools for agencies?,False,search,anthropic,18,18,0,0
+bhag_05,What are the top AI visibility monitoring tools for agencies?,False,search,openai,18,18,0,0
+bhag_05,What are the top AI visibility monitoring tools for agencies?,False,search,perplexity,18,18,0,0
+bhag_05,What are the top AI visibility monitoring tools for agencies?,False,search,gemini,18,18,0,0
+bhag_05,What are the top AI visibility monitoring tools for agencies?,False,search,grok,18,18,0,0
+bhag_05,What are the top AI visibility monitoring tools for agencies?,False,search,google_aio,18,17,0,0
+bhag_05,What are the top AI visibility monitoring tools for agencies?,False,api,anthropic,18,18,0,0
+bhag_05,What are the top AI visibility monitoring tools for agencies?,False,api,openai,18,18,0,0
+bhag_05,What are the top AI visibility monitoring tools for agencies?,False,api,gemini,18,18,0,0
+bhag_05,What are the top AI visibility monitoring tools for agencies?,False,api,grok,18,18,0,0
+bhag_06,Which platforms offer white-label AEO reporting for agencies?,False,search,anthropic,18,18,0,0
+bhag_06,Which platforms offer white-label AEO reporting for agencies?,False,search,openai,18,18,0,0
+bhag_06,Which platforms offer white-label AEO reporting for agencies?,False,search,perplexity,18,18,0,0
+bhag_06,Which platforms offer white-label AEO reporting for agencies?,False,search,gemini,18,18,0,0
+bhag_06,Which platforms offer white-label AEO reporting for agencies?,False,search,grok,18,18,14,0
+bhag_06,Which platforms offer white-label AEO reporting for agencies?,False,search,google_aio,18,18,0,0
+bhag_06,Which platforms offer white-label AEO reporting for agencies?,False,api,anthropic,18,18,0,0
+bhag_06,Which platforms offer white-label AEO reporting for agencies?,False,api,openai,18,18,0,0
+bhag_06,Which platforms offer white-label AEO reporting for agencies?,False,api,gemini,18,18,0,0
+bhag_06,Which platforms offer white-label AEO reporting for agencies?,False,api,grok,18,18,0,0
+bhag_07,"How can a brand find out which pages AI engines cite about it, and which tool does that?",False,search,anthropic,18,18,0,0
+bhag_07,"How can a brand find out which pages AI engines cite about it, and which tool does that?",False,search,openai,18,18,0,0
+bhag_07,"How can a brand find out which pages AI engines cite about it, and which tool does that?",False,search,perplexity,18,18,0,0
+bhag_07,"How can a brand find out which pages AI engines cite about it, and which tool does that?",False,search,gemini,18,18,0,0
+bhag_07,"How can a brand find out which pages AI engines cite about it, and which tool does that?",False,search,grok,18,18,0,0
+bhag_07,"How can a brand find out which pages AI engines cite about it, and which tool does that?",False,search,google_aio,18,18,0,0
+bhag_07,"How can a brand find out which pages AI engines cite about it, and which tool does that?",False,api,anthropic,18,18,0,0
+bhag_07,"How can a brand find out which pages AI engines cite about it, and which tool does that?",False,api,openai,18,18,0,0
+bhag_07,"How can a brand find out which pages AI engines cite about it, and which tool does that?",False,api,gemini,18,18,0,0
+bhag_07,"How can a brand find out which pages AI engines cite about it, and which tool does that?",False,api,grok,18,18,0,0
+bhag_08,What tools generate schema and content fixes for AI search visibility?,False,search,anthropic,18,18,0,0
+bhag_08,What tools generate schema and content fixes for AI search visibility?,False,search,openai,18,18,0,0
+bhag_08,What tools generate schema and content fixes for AI search visibility?,False,search,perplexity,18,18,0,0
+bhag_08,What tools generate schema and content fixes for AI search visibility?,False,search,gemini,18,18,0,0
+bhag_08,What tools generate schema and content fixes for AI search visibility?,False,search,grok,18,18,0,0
+bhag_08,What tools generate schema and content fixes for AI search visibility?,False,search,google_aio,18,15,0,0
+bhag_08,What tools generate schema and content fixes for AI search visibility?,False,api,anthropic,18,18,0,0
+bhag_08,What tools generate schema and content fixes for AI search visibility?,False,api,openai,18,18,0,0
+bhag_08,What tools generate schema and content fixes for AI search visibility?,False,api,gemini,18,18,0,0
+bhag_08,What tools generate schema and content fixes for AI search visibility?,False,api,grok,18,18,0,0
+bhag_09,Which AEO tools certify a brand's AI visibility?,False,search,anthropic,18,18,0,0
+bhag_09,Which AEO tools certify a brand's AI visibility?,False,search,openai,18,18,8,6
+bhag_09,Which AEO tools certify a brand's AI visibility?,False,search,perplexity,18,18,0,0
+bhag_09,Which AEO tools certify a brand's AI visibility?,False,search,gemini,18,18,2,2
+bhag_09,Which AEO tools certify a brand's AI visibility?,False,search,grok,18,18,0,0
+bhag_09,Which AEO tools certify a brand's AI visibility?,False,search,google_aio,18,17,0,0
+bhag_09,Which AEO tools certify a brand's AI visibility?,False,api,anthropic,18,18,0,0
+bhag_09,Which AEO tools certify a brand's AI visibility?,False,api,openai,18,18,0,0
+bhag_09,Which AEO tools certify a brand's AI visibility?,False,api,gemini,18,18,0,0
+bhag_09,Which AEO tools certify a brand's AI visibility?,False,api,grok,18,18,0,0
+bhag_10,What is the best alternative to traditional SEO tools for AI search?,False,search,anthropic,18,18,0,0
+bhag_10,What is the best alternative to traditional SEO tools for AI search?,False,search,openai,18,18,0,0
+bhag_10,What is the best alternative to traditional SEO tools for AI search?,False,search,perplexity,18,18,0,0
+bhag_10,What is the best alternative to traditional SEO tools for AI search?,False,search,gemini,18,18,0,0
+bhag_10,What is the best alternative to traditional SEO tools for AI search?,False,search,grok,18,18,0,0
+bhag_10,What is the best alternative to traditional SEO tools for AI search?,False,search,google_aio,18,16,0,0
+bhag_10,What is the best alternative to traditional SEO tools for AI search?,False,api,anthropic,18,18,0,0
+bhag_10,What is the best alternative to traditional SEO tools for AI search?,False,api,openai,18,18,0,0
+bhag_10,What is the best alternative to traditional SEO tools for AI search?,False,api,gemini,18,18,0,0
+bhag_10,What is the best alternative to traditional SEO tools for AI search?,False,api,grok,18,18,0,0

@@ -1,0 +1,277 @@
+mode,engine,tool,first_count
+search,anthropic,Profound,35
+search,anthropic,Google Search Console,18
+search,anthropic,Writesonic,18
+search,anthropic,Semrush AI Visibility Toolkit,16
+search,anthropic,Loudmink,9
+search,anthropic,Otterly,8
+search,anthropic,Rankability,8
+search,anthropic,ChatFeatured,7
+search,anthropic,Rankry,7
+search,anthropic,Goodie AI,6
+search,anthropic,AEO Engine,4
+search,anthropic,Gauge,4
+search,anthropic,HubSpot AEO,4
+search,anthropic,Semrush AI Toolkit,4
+search,anthropic,VisibilityStack,4
+search,anthropic,Cairrot,3
+search,anthropic,Google Structured Data Markup Helper,3
+search,anthropic,Ahrefs Brand Radar,2
+search,anthropic,Indexly,2
+search,anthropic,Peec AI,2
+search,anthropic,Similarweb,2
+search,anthropic,Similarweb AEO Tools,2
+search,anthropic,Similarweb AI Citation Analysis,2
+search,anthropic,Wegic,2
+search,anthropic,Atomic AGI,1
+search,anthropic,Conductor,1
+search,anthropic,Frizerly,1
+search,anthropic,HubSpot AI Search Grader,1
+search,anthropic,Meltwater GenAI Lens,1
+search,anthropic,Semrush One,1
+search,anthropic,WorkDuo,1
+search,anthropic,Writesonic GEO,1
+search,openai,Profound,60
+search,openai,Peec AI,28
+search,openai,Ahrefs Brand Radar,18
+search,openai,LLM Pulse,6
+search,openai,Sextant AEO,6
+search,openai,HubSpot AEO,5
+search,openai,Semrush AI Visibility Toolkit,5
+search,openai,Cartographer,4
+search,openai,Schema App,4
+search,openai,Semrush AI Toolkit,4
+search,openai,Evoka,3
+search,openai,WorkDuo,3
+search,openai,Writesonic,3
+search,openai,Koalr,2
+search,openai,Orbitr,2
+search,openai,RankCaster AI,2
+search,openai,Searchpanel,2
+search,openai,AEOArc,1
+search,openai,AEOProof AI Visibility Checker,1
+search,openai,AEOVisor,1
+search,openai,AI Search Visibility,1
+search,openai,Adobe Brand Visibility,1
+search,openai,Cloudflare AEO Visibility Dashboard,1
+search,openai,HubSpot AEO / AEO Grader,1
+search,openai,LLMSource Control,1
+search,openai,Meltwater GenAI Lens,1
+search,openai,MyFast AI,1
+search,openai,Orchly AI Visibility,1
+search,openai,OtterlyAI,1
+search,openai,Peak Answer,1
+search,openai,SE Ranking,1
+search,openai,Scrunch,1
+search,openai,Search Atlas OTTO SEO,1
+search,openai,Semrush AI Visibility / Enterprise AIO,1
+search,openai,Surfedo,1
+search,openai,Trakkr,1
+search,openai,Ubersuggest AI Search Visibility,1
+search,openai,Webflow AEO Agents,1
+search,openai,Webflow AEO agents,1
+search,openai,WordLift,1
+search,perplexity,Semrush AI Visibility Toolkit,38
+search,perplexity,Profound,31
+search,perplexity,Semrush AI Toolkit,21
+search,perplexity,GeoVector,18
+search,perplexity,Peec AI,12
+search,perplexity,Ahrefs Brand Radar,8
+search,perplexity,HubSpot AEO,7
+search,perplexity,xSeek,7
+search,perplexity,Semrush One,6
+search,perplexity,Writesonic GEO/AEO Suite,5
+search,perplexity,Citerank,4
+search,perplexity,AICite,3
+search,perplexity,Evoka,3
+search,perplexity,ReachLLM,3
+search,perplexity,Searchable,3
+search,perplexity,WebTrek,3
+search,perplexity,CiteRank,2
+search,perplexity,Writesonic,2
+search,perplexity,Semrush AI Toolkit/ONE,1
+search,perplexity,Semrush's AI Visibility Toolkit,1
+search,perplexity,Siftly,1
+search,perplexity,ZeroRank AI,1
+search,gemini,Profound,95
+search,gemini,WordLift,9
+search,gemini,Peec AI,8
+search,gemini,HubSpot AI Search Grader,7
+search,gemini,Asva AI,6
+search,gemini,Otterly,6
+search,gemini,Geoptie,4
+search,gemini,LLM Pulse,4
+search,gemini,Rank Prompt,4
+search,gemini,Scrunch,4
+search,gemini,ReachLLM,3
+search,gemini,Frizerly,2
+search,gemini,HubSpot AEO & AI Search Grader,2
+search,gemini,LightSite AI,2
+search,gemini,Profound AI,2
+search,gemini,Semrush AI Toolkit,2
+search,gemini,Sextant AEO,2
+search,gemini,AEOArc,1
+search,gemini,Ahrefs Brand Radar,1
+search,gemini,AirOps,1
+search,gemini,Ayzeo,1
+search,gemini,Frase,1
+search,gemini,Geneo,1
+search,gemini,Goodie AI,1
+search,gemini,HubSpot,1
+search,gemini,HubSpot AEO,1
+search,gemini,HubSpot AI Search Grader & AEO Suite,1
+search,gemini,LLMSource,1
+search,gemini,Optimizely CMS,1
+search,gemini,RankCaster AI,1
+search,gemini,SearchEye,1
+search,gemini,Slate,1
+search,gemini,WorkDuo,1
+search,gemini,Writesonic,1
+search,gemini,ZipTie,1
+search,grok,Profound,36
+search,grok,Peec AI,20
+search,grok,Otterly,19
+search,grok,Ansvisor,16
+search,grok,Semrush AI Visibility Toolkit,16
+search,grok,Ayzeo,13
+search,grok,HubSpot AEO,8
+search,grok,Hoverboard AI,6
+search,grok,Prefer,6
+search,grok,Schema App,6
+search,grok,Merkle/TechnicalSEO.com Schema Markup Generator,4
+search,grok,AEOProof,3
+search,grok,Asva AI,3
+search,grok,Google Search Console,3
+search,grok,Merkle,3
+search,grok,Cognizo,2
+search,grok,LLM Pulse,2
+search,grok,Semrush AI Toolkit,2
+search,grok,AgencyScope,1
+search,grok,GetIntel,1
+search,grok,Indexly.ai,1
+search,grok,Merkle/TechnicalSEO.com,1
+search,grok,Omnia,1
+search,grok,Rank Math SEO,1
+search,grok,Rankr,1
+search,grok,SEMrush AI Visibility Toolkit,1
+search,grok,SchemaApp,1
+search,grok,TechnicalSEO.com,1
+search,grok,TechnicalSEO.com (Merkle) Schema Markup Generator,1
+search,grok,monitoraeo,1
+search,google_aio,Profound,30
+search,google_aio,Frizerly,13
+search,google_aio,Otterly,10
+search,google_aio,Rank Prompt,10
+search,google_aio,Semrush AI Toolkit,8
+search,google_aio,Sight AI,7
+search,google_aio,OtterlyAI,6
+search,google_aio,Semrush AI Visibility Toolkit,6
+search,google_aio,Ayzeo,4
+search,google_aio,Goodie,4
+search,google_aio,HubSpot AEO,4
+search,google_aio,Ansvisor,3
+search,google_aio,Goodie by NoGood,3
+search,google_aio,HubSpot AEO Tool,3
+search,google_aio,LLM Pulse,3
+search,google_aio,Prompteye,3
+search,google_aio,Addlly AI,2
+search,google_aio,Asva AI,2
+search,google_aio,Dageno AI,2
+search,google_aio,Gauge,2
+search,google_aio,HubSpot AEO / AI Search Grader,2
+search,google_aio,HubSpot AI Search Grader,2
+search,google_aio,NoGood,2
+search,google_aio,Omnia,2
+search,google_aio,Radar Kit,2
+search,google_aio,RadarKit,2
+search,google_aio,Rankshift,2
+search,google_aio,Topify,2
+search,google_aio,AI Overview Checker,1
+search,google_aio,AI SEO Auditor,1
+search,google_aio,AI Visibility Pro,1
+search,google_aio,Ahrefs Brand Radar,1
+search,google_aio,AllSearch,1
+search,google_aio,Analyze AI,1
+search,google_aio,Athena,1
+search,google_aio,Brand24,1
+search,google_aio,CLEO by RegenAI,1
+search,google_aio,DeepCited,1
+search,google_aio,First Page Sage,1
+search,google_aio,Geneo,1
+search,google_aio,Google Analytics 4,1
+search,google_aio,HubSpot AEO Grader,1
+search,google_aio,HubSpot Academy,1
+search,google_aio,MaxAEO,1
+search,google_aio,Moz AI Visibility,1
+search,google_aio,Pixis,1
+search,google_aio,Schema App,1
+search,google_aio,Search Atlas,1
+search,google_aio,Semrush Academy,1
+search,google_aio,Similarweb AI Citation Analysis,1
+search,google_aio,Slate,1
+search,google_aio,Super Schema,1
+search,google_aio,Surfer SEO,1
+search,google_aio,Waikay,1
+search,google_aio,Wellows,1
+api,anthropic,Profound,86
+api,anthropic,Brandwatch,38
+api,anthropic,Semrush AI Toolkit,18
+api,anthropic,Schema.org Markup Generator,17
+api,anthropic,Surfer SEO,6
+api,anthropic,Otterly,5
+api,anthropic,Authoritas,2
+api,anthropic,Brandwatch AI,2
+api,anthropic,Brand24,1
+api,anthropic,Brandlight,1
+api,anthropic,Clearscope,1
+api,anthropic,Peec.ai,1
+api,anthropic,Perplexity.ai,1
+api,anthropic,Schema App,1
+api,openai,Profound,142
+api,openai,Schema App,16
+api,openai,Otterly,14
+api,openai,SE Ranking,4
+api,openai,Ahrefs Brand Radar,2
+api,openai,WordLift,2
+api,gemini,Profound,144
+api,gemini,WordLift,15
+api,gemini,ZipTie.dev,7
+api,gemini,Otterly,4
+api,gemini,Peec AI,4
+api,gemini,Ahrefs Brand Radar,1
+api,gemini,Google Analytics 4,1
+api,gemini,Peec.ai,1
+api,gemini,Profound Strategy,1
+api,gemini,Promptwatch,1
+api,gemini,Yext,1
+api,grok,Profound,74
+api,grok,WordLift,15
+api,grok,Semrush AI Toolkit,11
+api,grok,AgencyAnalytics,10
+api,grok,Glimpse,10
+api,grok,Peec AI,10
+api,grok,Scrunch,8
+api,grok,BrightEdge,6
+api,grok,Surfer SEO,5
+api,grok,Alli AI,2
+api,grok,AthenaHQ,2
+api,grok,Frase,2
+api,grok,MarketMuse,2
+api,grok,Mention,2
+api,grok,Otterly,2
+api,grok,Relixir,2
+api,grok,Schema App,2
+api,grok,Surfer AI,2
+api,grok,Ahrefs Brand Radar,1
+api,grok,AlsoAsked,1
+api,grok,Brandwatch,1
+api,grok,BrightEdge Data Cube,1
+api,grok,Custom API scripts,1
+api,grok,Kalicube,1
+api,grok,Merkle Schema Markup Generator,1
+api,grok,Peec.ai,1
+api,grok,Perplexity Brand Analytics / API,1
+api,grok,Rank Math,1
+api,grok,Rank Math SEO,1
+api,grok,Scrunch.ai,1
+api,grok,SurferSEO,1

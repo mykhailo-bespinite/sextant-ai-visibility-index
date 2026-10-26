@@ -56,4 +56,4 @@ The code in `runner/` is MIT licensed (`LICENSE`, also shipped as `runner/LICENS
 
 ## Cite
 
-Cite as: Shearwater Labs, "Sextant AI Visibility Index", edition YYYY-MM-DD, https://doi.org/10.5281/zenodo.23645499 (see `CITATION.cff`). The concept DOI 10.5281/zenodo.23645499 always resolves to the latest edition; each edition has its own DOI on Zenodo (2026-10-18: 10.5281/zenodo.23645500).
+Cite as: Shearwater Labs, "Sextant AI Visibility Index", edition YYYY-MM-DD, https://doi.org/10.5281/zenodo.23645499 (see `CITATION.cff`). The concept DOI 10.5281/zenodo.23645499 always resolves to the latest edition; each edition has its own DOI on Zenodo (2026-10-18: 10.5281/zenodo.23645500; 2026-10-25: 10.5281/zenodo.23668261).

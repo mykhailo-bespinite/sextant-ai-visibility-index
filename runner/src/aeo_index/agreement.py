@@ -21,7 +21,10 @@ Aggregates are the mean of the defined cells, with the count: `cells` counts
 the cells with two or more samples (what `set_agreement` averages) and
 `first_cells` those where `first_agreement` is defined. Means are exact
 (fractions) and rounded to three decimals, so the block does not depend on
-the order of the facts. The Sextant backend computes the same block with the
+the order of the facts. Every question counts, experimental ones included
+(the leaderboards count the fixed questions only). Groups are per (engine,
+mode), per (question, mode) and per mode: an api answer and a search answer
+are never pooled. The Sextant backend computes the same block with the
 same definitions; `tests/fixtures/agreement_cases.json` holds the two equal.
 """
 
@@ -43,13 +46,14 @@ NO_TOOL: Final[str] = ""
 
 DEFINITION: Final[Mapping[str, str]] = {
     "first_agreement": (
-        "For one prompt asked of one engine in one mode on one night: 1.0 when every successful answer names the "
-        "same tool first, 0.5 when two of three do, 0.0 otherwise; not defined with fewer than two successful "
-        "answers or when none of them names a tool."
+        "For one prompt asked of one engine in one mode on one night, over the answers that succeeded and whose "
+        "tools the judge listed: 1.0 when every such answer names the same tool first, 0.5 when two of three do, "
+        "0.0 otherwise; not defined with fewer than two such answers or when none of them names a tool."
     ),
     "set_agreement": (
-        "For the same cell, the average overlap (Jaccard index) between the sets of tools each pair of successful "
-        "answers names; 1.0 means identical sets and 0.0 means nothing in common."
+        "For the same cell and the same answers, the average overlap (Jaccard index) between the sets of tools each "
+        "pair of answers names; 1.0 means identical sets and 0.0 means nothing in common; not defined with fewer "
+        "than two such answers."
     ),
 }
 
@@ -140,7 +144,6 @@ def agreement_block(facts: Iterable[AnswerFacts]) -> dict[str, Any]:
         "by_engine": _rows(
             cells, ("engine", "mode"), lambda e, m, k: (e, m), lambda g: (_mode_rank(g[1]), _engine_rank(g[0]))
         ),
-        "by_engine_overall": _rows(cells, ("engine",), lambda e, m, k: (e,), lambda g: _engine_rank(g[0])),
         "by_prompt": _rows(cells, ("key", "mode"), lambda e, m, k: (k, m), lambda g: (g[0], _mode_rank(g[1]))),
         "by_mode": _rows(cells, ("mode",), lambda e, m, k: (m,), lambda g: _mode_rank(g[0])),
     }

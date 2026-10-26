@@ -276,15 +276,22 @@ def _check_board(c: _Checker, doc: Mapping[str, Any]) -> list[dict[str, Any]]:
 
 _AGREEMENT_GROUPS: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("by_engine", ("engine", "mode")),
-    ("by_engine_overall", ("engine",)),
     ("by_prompt", ("key", "mode")),
     ("by_mode", ("mode",)),
 )
 
 
-def _check_agreement(c: _Checker, doc: Mapping[str, Any]) -> None:
-    """The optional `agreement` block: each group a list of rows naming
-    their group, two shares that may be null, and the cell counts."""
+def _check_agreement(
+    c: _Checker,
+    doc: Mapping[str, Any],
+    prompts: Sequence[Mapping[str, Any]] | None = None,
+    mode_engines: Sequence[Mapping[str, Any]] | None = None,
+) -> None:
+    """The optional `agreement` block, checked as the research page checks
+    it: each group a list of rows naming their group once, two shares that
+    may be null beside the counts that say whether they are, and rows that
+    name an engine, mode and question the edition has (when `prompts` and
+    `mode_engines` are given, that is, for an edition with mode blocks)."""
     block = doc.get("agreement")
     if not isinstance(block, Mapping):
         c.fail("snapshot.agreement is not an object")
@@ -295,9 +302,13 @@ def _check_agreement(c: _Checker, doc: Mapping[str, Any]) -> None:
     else:
         for key in ("first_agreement", "set_agreement"):
             c.text(definition, key, "agreement.definition")
+    keys = {p["key"] for p in prompts} if prompts is not None else None
+    pairs = {(e["mode"], e["engine"]) for e in mode_engines} if mode_engines is not None else None
     for group, names in _AGREEMENT_GROUPS:
         where = f"agreement.{group}"
+        seen: set[tuple[Any, ...]] = set()
         for row in c.rows(block, group, "agreement"):
+            before = len(c.errors)
             for name in names:
                 if name == "mode":
                     c.mode(row.get("mode"), where)
@@ -305,8 +316,24 @@ def _check_agreement(c: _Checker, doc: Mapping[str, Any]) -> None:
                     c.text(row, name, where)
             c.share(row, "first_agreement", where)
             c.share(row, "set_agreement", where)
-            c.count(row, "cells", where)
-            c.count(row, "first_cells", where)
+            cells = c.count(row, "cells", where)
+            first_cells = c.count(row, "first_cells", where)
+            if len(c.errors) > before:
+                continue
+            if first_cells > cells:
+                c.fail(f"{where}: first_cells {first_cells} exceeds cells {cells}")
+            if (row["first_agreement"] is None) != (first_cells == 0):
+                c.fail(f"{where}: first_agreement and first_cells disagree on whether any cell was defined")
+            if (row["set_agreement"] is None) != (cells == 0):
+                c.fail(f"{where}: set_agreement and cells disagree on whether any cell was defined")
+            identity = tuple(row[name] for name in names)
+            if identity in seen:
+                c.fail(f"{where} has {' '.join(map(str, identity))} twice")
+            seen.add(identity)
+            if group == "by_engine" and pairs is not None and (row["mode"], row["engine"]) not in pairs:
+                c.fail(f"{where} has {row['engine']} in {row['mode']}, which the edition's mode blocks do not")
+            if group == "by_prompt" and keys is not None and row["key"] not in keys:
+                c.fail(f'{where} names prompt "{row["key"]}", which the edition does not list')
 
 
 def validate_edition(doc: Mapping[str, Any]) -> list[str]:
@@ -324,11 +351,13 @@ def validate_edition(doc: Mapping[str, Any]) -> list[str]:
             c.count(sacs, "evaluations", "sacs")
         else:
             c.fail("snapshot.sacs is not an object")
-    if "agreement" in doc:
-        _check_agreement(c, doc)
     if is_legacy(doc):
+        if "agreement" in doc:
+            _check_agreement(c, doc)
         return c.errors
     mode_engines = _check_modes(c, doc)
+    if "agreement" in doc:
+        _check_agreement(c, doc, prompts, mode_engines)
     cells = [cell for row in c.rows(doc, "by_prompt") if (cell := _check_cell(c, row)) is not None]
     board = _check_board(c, doc)
     if not c.errors:

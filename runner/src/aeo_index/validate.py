@@ -81,6 +81,14 @@ class _Checker:
     def optional_date(self, row: Mapping[str, Any], key: str, where: str) -> str | None:
         return None if row.get(key) is None else self.iso_date(row, key, where)
 
+    def share(self, row: Mapping[str, Any], key: str, where: str) -> None:
+        """A share between 0 and 1, or null (undefined)."""
+        value = row.get(key)
+        if value is None:
+            return
+        if isinstance(value, bool) or not isinstance(value, int | float) or not 0 <= value <= 1:
+            self.fail(f"{where}.{key} is not a share between 0 and 1")
+
     def mode(self, value: object, where: str) -> str | None:
         if not isinstance(value, str) or value not in MODES:
             self.fail(f'{where}: unknown mode "{value}"')
@@ -266,6 +274,41 @@ def _check_board(c: _Checker, doc: Mapping[str, Any]) -> list[dict[str, Any]]:
     return out
 
 
+_AGREEMENT_GROUPS: tuple[tuple[str, tuple[str, ...]], ...] = (
+    ("by_engine", ("engine", "mode")),
+    ("by_engine_overall", ("engine",)),
+    ("by_prompt", ("key", "mode")),
+    ("by_mode", ("mode",)),
+)
+
+
+def _check_agreement(c: _Checker, doc: Mapping[str, Any]) -> None:
+    """The optional `agreement` block: each group a list of rows naming
+    their group, two shares that may be null, and the cell counts."""
+    block = doc.get("agreement")
+    if not isinstance(block, Mapping):
+        c.fail("snapshot.agreement is not an object")
+        return
+    definition = block.get("definition")
+    if not isinstance(definition, Mapping):
+        c.fail("agreement.definition is not an object")
+    else:
+        for key in ("first_agreement", "set_agreement"):
+            c.text(definition, key, "agreement.definition")
+    for group, names in _AGREEMENT_GROUPS:
+        where = f"agreement.{group}"
+        for row in c.rows(block, group, "agreement"):
+            for name in names:
+                if name == "mode":
+                    c.mode(row.get("mode"), where)
+                else:
+                    c.text(row, name, where)
+            c.share(row, "first_agreement", where)
+            c.share(row, "set_agreement", where)
+            c.count(row, "cells", where)
+            c.count(row, "first_cells", where)
+
+
 def validate_edition(doc: Mapping[str, Any]) -> list[str]:
     """Every reason the research page would refuse `doc`, as sentences;
     empty when it would show it. `sacs`, which only the publisher writes,
@@ -281,6 +324,8 @@ def validate_edition(doc: Mapping[str, Any]) -> list[str]:
             c.count(sacs, "evaluations", "sacs")
         else:
             c.fail("snapshot.sacs is not an object")
+    if "agreement" in doc:
+        _check_agreement(c, doc)
     if is_legacy(doc):
         return c.errors
     mode_engines = _check_modes(c, doc)

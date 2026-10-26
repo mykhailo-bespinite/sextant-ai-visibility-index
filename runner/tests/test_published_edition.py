@@ -36,4 +36,8 @@ def test_rebuild_reproduces_published_editions_with_facts(tmp_path):
             args += ["--under-review", engine]
         assert main(args) == 0, folder
         rebuilt = json.loads((out / "index.json").read_text(encoding="utf-8"))
+        if "agreement" not in published:
+            # An edition published before the agreement block cannot carry it;
+            # one that does must be reproduced exactly, block included.
+            rebuilt.pop("agreement")
         assert strip_publisher_fields(rebuilt) == strip_publisher_fields(published), folder

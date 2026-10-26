@@ -5,7 +5,8 @@ The shape is the published edition format. A top level reads one row per
 engine (its api row when that engine was asked in api, else its search
 row; `basis` says which), a `modes` block holds the same figures for each
 mode on its own, `by_prompt` and `leaderboard_by_prompt` break them down
-per question, and `runs` and `prompts` describe what was asked. A search
+per question, `agreement` says how often the samples of one question agree,
+and `runs` and `prompts` describe what was asked. A search
 answer and an api answer are never added together. No answer text is
 ever written: only counts, ranks, run dates, tool names, question texts
 and cited URLs.
@@ -23,6 +24,7 @@ from collections import Counter, defaultdict
 from collections.abc import Iterable, Mapping, Sequence
 from typing import Any, Final
 
+from aeo_index.agreement import agreement_block
 from aeo_index.aliases import AliasTable, normalise
 from aeo_index.citations import citation_domains, citation_urls, domain_matches
 from aeo_index.modes import (
@@ -424,6 +426,7 @@ def build_edition(
         },
         "by_prompt": [{column: row[column] for column in BY_PROMPT_COLUMNS} for row in rows],
         "leaderboard_by_prompt": _prompt_leaderboards(facts, questions),
+        "agreement": agreement_block(facts),
     }
     if producer is not None:
         doc["producer"] = dict(producer)

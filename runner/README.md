@@ -199,7 +199,7 @@ A reasoning model used as the judge can spend its 500 tokens thinking and return
 
 | File | Contents |
 |---|---|
-| `index.json` | The edition, in the format the index's research page reads: runs, prompts, a top level and a `modes` block with per-engine totals, leaderboard, leaderboard by engine, top cited domains and URLs, then `by_prompt` and `leaderboard_by_prompt`, plus `basis` and a `producer` block (package version, judge, models, brand, question set, `judge_ungrounded`, `extract_version` 2). Never any answer text. |
+| `index.json` | The edition, in the format the index's research page reads: runs, prompts, a top level and a `modes` block with per-engine totals, leaderboard, leaderboard by engine, top cited domains and URLs, then `by_prompt` and `leaderboard_by_prompt`, an `agreement` block (how often a question's samples agree on the tool named first, `first_agreement`, and on the set of tools named, `set_agreement`, per engine and mode, per question and mode, and per mode; the block states both definitions), plus `basis` and a `producer` block (package version, judge, models, brand, question set, `judge_ungrounded`, `extract_version` 2). Never any answer text. |
 | `table.md` | The first-named table: one table per mode asked, "With web search" first, tools as rows, engines as columns with each engine's successful answers in its header, and an "All engines" column within that mode. At most 15 rows; engines with no or partial answers are noted under the table. |
 | `leaderboard.csv` | `mode, engine, tool, first_count`. |
 | `cited_domains.csv` | `mode, domain, citations, engines, sextant`, where `sextant` marks the tracked brand's domain. |

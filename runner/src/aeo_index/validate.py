@@ -81,6 +81,14 @@ class _Checker:
     def optional_date(self, row: Mapping[str, Any], key: str, where: str) -> str | None:
         return None if row.get(key) is None else self.iso_date(row, key, where)
 
+    def share(self, row: Mapping[str, Any], key: str, where: str) -> None:
+        """A share between 0 and 1, or null (undefined)."""
+        value = row.get(key)
+        if value is None:
+            return
+        if isinstance(value, bool) or not isinstance(value, int | float) or not 0 <= value <= 1:
+            self.fail(f"{where}.{key} is not a share between 0 and 1")
+
     def mode(self, value: object, where: str) -> str | None:
         if not isinstance(value, str) or value not in MODES:
             self.fail(f'{where}: unknown mode "{value}"')
@@ -266,6 +274,68 @@ def _check_board(c: _Checker, doc: Mapping[str, Any]) -> list[dict[str, Any]]:
     return out
 
 
+_AGREEMENT_GROUPS: tuple[tuple[str, tuple[str, ...]], ...] = (
+    ("by_engine", ("engine", "mode")),
+    ("by_prompt", ("key", "mode")),
+    ("by_mode", ("mode",)),
+)
+
+
+def _check_agreement(
+    c: _Checker,
+    doc: Mapping[str, Any],
+    prompts: Sequence[Mapping[str, Any]] | None = None,
+    mode_engines: Sequence[Mapping[str, Any]] | None = None,
+) -> None:
+    """The optional `agreement` block, checked as the research page checks
+    it: each group a list of rows naming their group once, two shares that
+    may be null beside the counts that say whether they are, and rows that
+    name an engine, mode and question the edition has (when `prompts` and
+    `mode_engines` are given, that is, for an edition with mode blocks)."""
+    block = doc.get("agreement")
+    if not isinstance(block, Mapping):
+        c.fail("snapshot.agreement is not an object")
+        return
+    definition = block.get("definition")
+    if not isinstance(definition, Mapping):
+        c.fail("agreement.definition is not an object")
+    else:
+        for key in ("first_agreement", "set_agreement"):
+            c.text(definition, key, "agreement.definition")
+    keys = {p["key"] for p in prompts} if prompts is not None else None
+    pairs = {(e["mode"], e["engine"]) for e in mode_engines} if mode_engines is not None else None
+    for group, names in _AGREEMENT_GROUPS:
+        where = f"agreement.{group}"
+        seen: set[tuple[Any, ...]] = set()
+        for row in c.rows(block, group, "agreement"):
+            before = len(c.errors)
+            for name in names:
+                if name == "mode":
+                    c.mode(row.get("mode"), where)
+                else:
+                    c.text(row, name, where)
+            c.share(row, "first_agreement", where)
+            c.share(row, "set_agreement", where)
+            cells = c.count(row, "cells", where)
+            first_cells = c.count(row, "first_cells", where)
+            if len(c.errors) > before:
+                continue
+            if first_cells > cells:
+                c.fail(f"{where}: first_cells {first_cells} exceeds cells {cells}")
+            if (row["first_agreement"] is None) != (first_cells == 0):
+                c.fail(f"{where}: first_agreement and first_cells disagree on whether any cell was defined")
+            if (row["set_agreement"] is None) != (cells == 0):
+                c.fail(f"{where}: set_agreement and cells disagree on whether any cell was defined")
+            identity = tuple(row[name] for name in names)
+            if identity in seen:
+                c.fail(f"{where} has {' '.join(map(str, identity))} twice")
+            seen.add(identity)
+            if group == "by_engine" and pairs is not None and (row["mode"], row["engine"]) not in pairs:
+                c.fail(f"{where} has {row['engine']} in {row['mode']}, which the edition's mode blocks do not")
+            if group == "by_prompt" and keys is not None and row["key"] not in keys:
+                c.fail(f'{where} names prompt "{row["key"]}", which the edition does not list')
+
+
 def validate_edition(doc: Mapping[str, Any]) -> list[str]:
     """Every reason the research page would refuse `doc`, as sentences;
     empty when it would show it. `sacs`, which only the publisher writes,
@@ -282,8 +352,12 @@ def validate_edition(doc: Mapping[str, Any]) -> list[str]:
         else:
             c.fail("snapshot.sacs is not an object")
     if is_legacy(doc):
+        if "agreement" in doc:
+            _check_agreement(c, doc)
         return c.errors
     mode_engines = _check_modes(c, doc)
+    if "agreement" in doc:
+        _check_agreement(c, doc, prompts, mode_engines)
     cells = [cell for row in c.rows(doc, "by_prompt") if (cell := _check_cell(c, row)) is not None]
     board = _check_board(c, doc)
     if not c.errors:

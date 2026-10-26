@@ -354,3 +354,15 @@ def test_the_goal_row_is_search_once_a_model_engine_searched():
     assert run_info(rows, asked_of(rows), run_date="2026-10-21").goal_mode == "search"
     only_retrieval = [fact("q01", "google_aio", "search")]
     assert run_info(only_retrieval, asked_of(only_retrieval), run_date="2026-10-21").goal_mode == "api"
+
+
+def test_strip_publisher_fields_drops_a_run_that_answered_nothing():
+    doc = {
+        "edition": "2026-10-25",
+        "runs": [
+            {"run_date": "2026-10-19", "status": "failed", "engines_answered": 0, "goal_mode": "search"},
+            {"run_date": "2026-10-20", "status": "completed", "engines_answered": 6, "goal_mode": "search"},
+        ],
+    }
+    stripped = strip_publisher_fields(doc)
+    assert [run["run_date"] for run in stripped["runs"]] == ["2026-10-20"]

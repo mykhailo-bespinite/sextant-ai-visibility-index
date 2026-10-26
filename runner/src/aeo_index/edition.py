@@ -434,8 +434,12 @@ def strip_publisher_fields(doc: Mapping[str, Any]) -> dict[str, Any]:
     """A copy of `doc` without the fields only a publisher writes."""
     stripped = {key: value for key, value in doc.items() if key not in PUBLISHER_ONLY}
     if isinstance(stripped.get("runs"), list):
+        # A run that answered nothing (a lost night the publisher still lists,
+        # such as 2026-10-19) leaves no answer behind, so a rebuild from the
+        # answers cannot know it existed: it is publisher metadata too.
         stripped["runs"] = [
-            {k: v for k, v in run.items() if k not in PUBLISHER_ONLY_RUN_FIELDS} if isinstance(run, Mapping) else run
+            {k: v for k, v in run.items() if k not in PUBLISHER_ONLY_RUN_FIELDS}
             for run in stripped["runs"]
+            if not isinstance(run, Mapping) or int(run.get("engines_answered") or 0) > 0
         ]
     return stripped

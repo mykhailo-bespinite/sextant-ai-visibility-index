@@ -17,4 +17,10 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23645500
     description: Edition 2026-10-18
+  - type: doi
+    value: 10.5281/zenodo.23668261
+    description: Edition 2026-10-25
+  - type: doi
+    value: 10.5281/zenodo.23898177
+    description: Edition 2026-11-01
 doi: 10.5281/zenodo.23645499

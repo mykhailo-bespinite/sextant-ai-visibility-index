@@ -8,8 +8,8 @@ authors:
 repository-code: https://github.com/mykhailo-bespinite/sextant-ai-visibility-index
 url: https://sextantaeo.com/research/ai-engines-aeo-tools
 license: CC-BY-4.0
-date-released: 2026-11-01
-version: 2026-11-01
+date-released: 2026-11-08
+version: 2026-11-08
 identifiers:
   - type: doi
     value: 10.5281/zenodo.23645499

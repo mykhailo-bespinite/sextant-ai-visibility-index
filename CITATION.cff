@@ -23,4 +23,7 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23898177
     description: Edition 2026-11-01
+  - type: doi
+    value: 10.5281/zenodo.24094552
+    description: Edition 2026-11-08
 doi: 10.5281/zenodo.23645499
